@@ -1,0 +1,21 @@
+class Solution {
+    public List<String> fizzBuzz(int n) {
+
+        ArrayList<String> ans1 = new ArrayList<String>();
+        for(int i = 0; i < n; i++){
+            if((i+1)%3 == 0 && (i+1)%5 == 0){
+                ans1.add("FizzBuzz");
+            }
+            if ((i+1)%3 == 0 && (i+1)%5 != 0){
+                ans1.add("Fizz");
+            }
+            if((i+1)%5 == 0 && (i+1)%3 != 0 ){
+                ans1.add("Buzz");   
+            }
+            if(!((i+1)%3 == 0 || (i+1)%5 == 0)){
+                ans1.add(Integer.toString(i+1));
+            }
+        }
+       return ans1;
+    }
+}

@@ -1,0 +1,15 @@
+H = int(input())
+for z in range(H):
+    for i in range(H):
+        for j in range(H-1):
+            print("#",end = "")
+        for x in range(H-1):
+            print(" ",end = "")
+    print()
+    if z < (H-1):
+        for i in range(H-1):
+            for x in range(H-1):
+                print(" ",end = "")
+            for j in range(H-1):
+                print("#",end = "")
+    print()

@@ -1,0 +1,11 @@
+n = 5
+star = 1
+for i in range(n-1):
+    for j in range(star):
+        print("*",end="")
+    for k in range(2*(n -star-1)):
+        print(" ",end="")
+    for l in range(star):
+        print("*",end="")
+    star+=1
+    print()

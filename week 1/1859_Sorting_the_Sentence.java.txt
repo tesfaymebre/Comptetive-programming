@@ -1,0 +1,26 @@
+class Solution {
+    public String sortSentence(String s) {
+        int startIndx;
+        int endIndx;
+        String word = "";
+        String sentence = "";
+        int space;
+        for(int i = 1; i < 10; i++){
+            space = s.indexOf(Integer.toString(i+1));
+            endIndx = s.indexOf(Integer.toString(i));
+            startIndx = s.lastIndexOf(" ",endIndx);
+                if(endIndx != -1){
+                    if(startIndx != -1)
+                        word = s.substring(startIndx + 1, endIndx);
+                    else
+                        word = s.substring(0,endIndx);
+                    if(space != -1)
+                        sentence = sentence + word + " ";
+                    else
+                     sentence = sentence + word;
+                }
+            
+        }
+     return sentence;  
+    }
+}

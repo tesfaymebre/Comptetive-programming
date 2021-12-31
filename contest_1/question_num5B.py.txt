@@ -1,0 +1,9 @@
+column_col = input()
+column_num = 0
+tracker = len(column_col)-1
+
+for j in range(len(column_col)):
+    column_num = column_num + ((ord(column_col[j])-64)*pow(26,tracker))
+    tracker-=1
+    
+print(column_num)

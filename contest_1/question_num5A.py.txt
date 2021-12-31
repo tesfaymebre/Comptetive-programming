@@ -1,0 +1,18 @@
+column_num = int(input())
+alphIndx=[]
+
+while True:
+    if (column_num%26) == 0:
+        alphIndx.append(26)
+        column_num = (column_num//26)-1
+        if column_num == 0:
+            break
+    elif (column_num//26) == 0 :
+        alphIndx.append(column_num%26)
+        break
+    else:
+        alphIndx.append(column_num%26)
+        column_num = column_num//26
+        
+for i in range(len(alphIndx)-1,-1,-1):
+    print(chr(alphIndx[i]+64),end="")
