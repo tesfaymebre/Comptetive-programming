@@ -17,17 +17,8 @@ import sys
 
 def repeatedString(s, n):
     # Write your code here
-    occurance_a = 0
-    for x in s:
-        if x == 'a':
-            occurance_a+=1
+    return s.count('a') * (n //len(s)) + s[:n % len(s)].count('a')
 
-    occurance_a = occurance_a * (n //len(s))
-    remainder = n % len(s)
-    for j in range(remainder):
-        if s[j] == 'a':
-            occurance_a += 1
-    return occurance_a
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
