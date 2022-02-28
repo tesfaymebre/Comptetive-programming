@@ -1,19 +1,18 @@
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:
-        diction = {}
+        def def_value():
+            return 0
+        
+        counting = defaultdict(def_value)
         
         for vals in edges:
-            if vals[0] not in diction:
-                diction[vals[0]] = 0
-                
-            if vals[1] not in diction:
-                diction[vals[1]] = 0
-                
-            diction[vals[0]] += 1
-            diction[vals[1]] += 1
-        
-        for key in diction.keys():
-            if diction[key] == len(edges):
-                return key
+          
+            counting[vals[0]] += 1
+            counting[vals[1]] += 1
+            
+            if counting[vals[0]] == len(edges):
+                return vals[0]
+            elif counting[vals[1]] == len(edges):
+                return vals[1]
                 
                 
