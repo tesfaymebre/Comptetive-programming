@@ -8,6 +8,7 @@ class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         
         def recur(p,q):
+            
             if (p and q)  and p.val != q.val:
                 return False
 
@@ -15,7 +16,6 @@ class Solution:
                 return True
 
             if (p and not q) or (q and not p):
-                print('c')
                 return False
 
             return recur(p.left, q.left) and recur(p.right, q.right)
