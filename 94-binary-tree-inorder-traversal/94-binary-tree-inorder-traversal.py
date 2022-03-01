@@ -6,36 +6,55 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        if not root:
-            return []
+        #solution 1 using recursive
         
-        visited = set()
-        stack = []
-        ans = []
+        self.ans = []
         
-        stack.append(root)
-        visited.add(root)
-        
-        while True:
+        def recur(node):
             
-            if stack[-1].left and stack[-1].left not in visited:
-                stack.append(stack[-1].left)
-                visited.add(stack[-1])
+            if not node:
+                return None
+            
+            recur(node.left)
+            self.ans.append(node.val)
+            recur(node.right)
+        
+        recur(root)
+        
+        return self.ans
+    
+        
+        #solution 2 using iteratively
+#         if not root:
+#             return []
+        
+#         visited = set()
+#         stack = []
+#         ans = []
+        
+#         stack.append(root)
+#         visited.add(root)
+        
+#         while True:
+            
+#             if stack[-1].left and stack[-1].left not in visited:
+#                 stack.append(stack[-1].left)
+#                 visited.add(stack[-1])
                 
-            elif stack[-1] not in visited:
-                visited.add(stack[-1])
+#             elif stack[-1] not in visited:
+#                 visited.add(stack[-1])
                 
-            elif stack[-1] in visited:
-                temp = stack.pop()
-                ans.append(temp.val)
+#             elif stack[-1] in visited:
+#                 temp = stack.pop()
+#                 ans.append(temp.val)
                 
-                if temp.right:
-                    stack.append(temp.right)
+#                 if temp.right:
+#                     stack.append(temp.right)
                     
-            if not stack:
-                break
+#             if not stack:
+#                 break
             
-        return ans
+#         return ans
                     
                 
         
