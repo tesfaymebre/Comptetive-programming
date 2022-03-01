@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
+        #solution 1 using recursive
+        
         self.total = 0
         
         def recur(node,value):
@@ -14,15 +16,17 @@ class Solution:
                 return 
             
             if node.left:
-                recur(node.left, value + str(node.left.val))
+                recur(node.left, 10 * value + node.left.val)
                 
             if node.right:
-                recur(node.right, value + str(node.right.val))
+                recur(node.right, 10 * value + node.right.val)
         
-        recur(root,str(root.val))
+        recur(root,root.val)
         
         return self.total   
             
+        
+        #solution 2 using iteratively
         
 #         if not root.left and not root.right:
 #             return root.val
@@ -42,10 +46,12 @@ class Solution:
 #             elif stack[-1].left in visited or stack[-1].right in visited:
 #                 visited.add(stack.pop())
 #             else:
-#                 st = ""
-#                 for x in stack:
-#                     st+= str(x.val)
-#                 total += int(st)
+#                 st = 0
+#                 j = 0
+#                 for i in range(len(stack)-1,-1,-1):
+#                     st+= stack[j].val * (10 ** i)
+#                     j += 1
+#                 total += st
 #                 visited.add(stack.pop())
         
 #         return total
