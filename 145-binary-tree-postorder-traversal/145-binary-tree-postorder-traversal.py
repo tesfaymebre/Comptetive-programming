@@ -6,19 +6,32 @@
 #         self.right = right
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        # solution 1 using recursion
         
-        self.ans = []
+        #solution 2 using iteratively
         
-        def recur(node):
-            
-            if not node:
-                return None
-            
-            recur(node.left)
-            recur(node.right)
-            self.ans.append(node.val)
-            
-        recur(root)
+        if not root:
+            return []
         
-        return self.ans
+        stack = []
+        visited = set()
+        ans = []
+        
+        stack.append(root)
+        
+        while True:
+            
+            if stack[-1].left and stack[-1].left not in visited:
+                stack.append(stack[-1].left)
+            elif stack[-1].right and stack[-1].right not in visited:
+                stack.append(stack[-1].right)
+            else:
+                visited.add(stack[-1])
+                ans.append(stack[-1].val)
+                stack.pop()
+                
+            if not stack:
+                break
+            
+        return ans
+                
+        
