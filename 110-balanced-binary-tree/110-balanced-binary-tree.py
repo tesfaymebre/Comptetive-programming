@@ -9,7 +9,9 @@ class Solution:
         
         if not root:
             return True
+        
         truth = set()
+        
         def recur(node):
             
             if not node:
