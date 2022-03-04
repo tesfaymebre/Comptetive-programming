@@ -3,17 +3,12 @@ class Solution:
         
         freq = Counter(nums)
         freq_key = []
-        ans = []
         
         for key,f in freq.items():
             if len(freq_key) < k:
                 heapq.heappush(freq_key, (f,key))
             elif freq_key[0][0] < f:
-                heapq.heappop(freq_key)
-                heapq.heappush(freq_key, (f,key))
-                
-        for x in freq_key:
-            ans.append(x[1])
+                heapq.heappushpop(freq_key, (f,key))
         
-        return ans
+        return [x[1] for x in freq_key]
         
