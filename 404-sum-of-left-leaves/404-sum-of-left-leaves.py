@@ -9,22 +9,18 @@ class Solution:
         
         self.total = 0
         
-        def recur(node, l_r):
+        def recur(node, left):
             if not node:
                 return
             
             if not node.left and not node.right:
-                if l_r == 0:
+                if left:
                     self.total += node.val
                 return
             
-            if node.left:
-                recur(node.left,0)
+            recur(node.left,1)
+            recur(node.right,0)
                 
-            if node.right:
-                recur(node.right,1)
-                
-        recur(root.left,0)
-        recur(root.right,1)
+        recur(root,0)
         
         return self.total
