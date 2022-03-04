@@ -12,19 +12,13 @@ class Solution:
                     heapq.heappush(max_heap, -diff)
                     bricks -= diff
                     
-                elif not max_heap and diff > bricks:
-                    if ladders > 0:
-                        ladders -= 1
-                    else:
-                        return i
-                    
                 elif diff > bricks:
                     if ladders > 0:
                         ladders -= 1
                     else:
                         return i
                     
-                    if -1*max_heap[0] > diff:
+                    if max_heap and diff < (-1*max_heap[0]):
                         
                         bricks += (-1*heapq.heappop(max_heap))
                         heapq.heappush(max_heap, -diff)
