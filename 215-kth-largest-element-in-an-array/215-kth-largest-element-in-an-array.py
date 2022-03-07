@@ -7,6 +7,6 @@ class Solution:
             if len(min_heap) < k:
                 heappush(min_heap, nums[i])
             elif min_heap[0] < nums[i]:
-                heappushpop(min_heap, nums[i])
+                heapreplace(min_heap, nums[i])
         
         return min_heap[0]
