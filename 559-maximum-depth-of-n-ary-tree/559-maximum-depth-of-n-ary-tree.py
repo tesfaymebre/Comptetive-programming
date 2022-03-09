@@ -9,14 +9,19 @@ class Node:
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
         if not root:
-                return 0
-            
-        def dfs(par):
-            if not par.children:
-                return 1
+            return 0
         
-            return max(1 + dfs(child) for child in par.children)
-            
-        return dfs(root)
+        def dfs(par, d):
+            if not par.children:
+                self.depth = max(self.depth, d + 1)
+                return
+        
+            for child in par.children:
+                dfs(child, d + 1)
+        
+        self.depth = 0    
+        dfs(root,0)
+        
+        return self.depth
         
         
