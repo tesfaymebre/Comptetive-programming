@@ -4,10 +4,9 @@ class Solution:
             visited.add(row)
             
             for col in range(len(isConnected[row])):
-                if col in visited or isConnected[row][col] == 0:
-                    continue
+                if col not in visited and isConnected[row][col] == 1:
+                    dfs(col)
                     
-                dfs(col)
             return
         
         visited = set()
