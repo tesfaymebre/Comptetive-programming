@@ -9,22 +9,17 @@ class Employee:
 
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
-        indx = 0
-
-        for i in range(len(employees)):
-            if employees[i].id == id:
-                indx = i
-                break
-        
-        self.total = employees[indx].importance
-        
-        def dfs(sub_id):
-            for sub in sub_id:
-                for j in range(len(employees)):
-                    if employees[j].id == sub:
-                        self.total += employees[j].importance
-                        dfs(employees[j].subordinates)
-
-        dfs(employees[indx].subordinates)
-        return self.total
+        def dfs(emp_id):
+            self.total += employ[emp_id].importance
+            for sub_id in employ[emp_id].subordinates:
+                dfs(sub_id)
                 
+        employ = dict()
+        for em in employees:
+            employ[em.id] = em
+                
+        self.total = 0     
+        dfs(id) 
+        
+        return self.total
+            
