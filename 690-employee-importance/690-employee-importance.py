@@ -13,6 +13,7 @@ class Solution:
             self.total += employ[emp_id].importance
             for sub_id in employ[emp_id].subordinates:
                 dfs(sub_id)
+            return
                 
         employ = dict()
         for em in employees:
