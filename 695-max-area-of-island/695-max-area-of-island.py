@@ -3,7 +3,7 @@ class Solution:
         self.area = 0
         self.count = 0
         visited = set()
-        DIR = [[0,1],[1,0],[0,-1],[-1,0]]
+        #DIR = [[0,1],[1,0],[0,-1],[-1,0]]
         inbound = lambda row, col : 0 <= row < len(grid) and 0 <= col < len(grid[row])
         
         def dfs(row,col):
@@ -11,10 +11,9 @@ class Solution:
                 self.count += 1
                 visited.add((row,col))
                     
-                for direction in DIR:
-                    new_row,new_col = row + direction[0] , col + direction[1]
-                    dfs(new_row, new_col)
-            return 
+                return 1 + dfs(row, col + 1) + dfs(row + 1, col) \
+                         +  dfs(row, col - 1) + dfs(row - 1, col)
+            return 0 
         
         for rw in range(len(grid)):
             for cl in range(len(grid[rw])):
