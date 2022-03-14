@@ -6,46 +6,36 @@
 #         self.right = right
 class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        left_q = []
-        right_q = []
-        ans = []
-        
         if not root:
-            return ans
+            return []
         
-        left_q.append(root)
-        ans.append([root.val])
+        queue = deque()
+        ans = []
         level = 0
-        print(ans[level])
-        while left_q or right_q:
+        queue.append(root)
+        
+        while queue:
             n = 0
-            level += 1 
             ans_list = []
+            n = len(queue)
             
-            if level %2 == 0:
-                n = len(right_q)
-                for j in range(n):
-                    curr = right_q.pop()
+            for i in range(n):
+                if level %2 == 0:
+                    curr = queue.popleft()
+                    ans_list.append(curr.val)
                     if curr.left:
-                        left_q.append(curr.left) 
-                        ans_list.append(curr.left.val)
+                        queue.append(curr.left) 
                     if curr.right:
-                        left_q.append(curr.right) 
-                        ans_list.append(curr.right.val)
-            else:
-                n = len(left_q)
-                for i in range(n):
-                    curr = left_q.pop()
+                        queue.append(curr.right) 
+                else:
+                    curr = queue.pop()
+                    ans_list.append(curr.val)
                     if curr.right:
-                        right_q.append(curr.right)
-                        print(level, ans)
-                        ans_list.append(curr.right.val)
+                        queue.appendleft(curr.right)
                     if curr.left:
-                        right_q.append(curr.left) 
-                        ans_list.append(curr.left.val)
-                        
-            if ans_list:
-                ans.append(ans_list) 
+                        queue.appendleft(curr.left)            
+            ans.append(ans_list) 
+            level += 1 
                 
         return ans
                
