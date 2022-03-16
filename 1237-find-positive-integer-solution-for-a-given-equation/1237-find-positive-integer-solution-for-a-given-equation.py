@@ -12,9 +12,9 @@
 class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
         ans = []
+        right = 1000
         for i in range(1,1000):
             left = 1
-            right = 1000
             while left <= right:
                 mid = left + (right - left)//2
                 check = customfunction.f(i,mid)
