@@ -8,10 +8,8 @@ class Solution:
             mid = left + (right - left)//2
             
             for x in nums:
-                if x % mid > 0:
-                    summ += (x // mid) + 1
-                else:
-                    summ += x // mid
+                summ += ceil(x / mid)
+            
             if summ <= threshold:
                 ans = mid
                 right = mid - 1
