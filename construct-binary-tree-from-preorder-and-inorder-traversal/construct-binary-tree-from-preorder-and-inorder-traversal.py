@@ -5,12 +5,9 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        val_indx = dict()
-        for i, val in enumerate(inorder):
-            val_indx[val] = i
-            
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:  
         preorder = deque(preorder)
+        val_indx = {val: i for i, val in enumerate(inorder)}
         
         def recur(start, end):
             if start > end:
