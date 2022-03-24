@@ -13,18 +13,18 @@ class Solution:
         if not root:
             return
         
-        queue = deque()
-        queue.append(root)
-        
-        while queue:
-            n = len(queue)
-            for i in range(n):
-                temp = queue.popleft()
-                if i < n - 1:
-                    temp.next = queue[0]
-                if temp.left and temp.right:
-                    queue.append(temp.left)
-                    queue.append(temp.right)
+        curr = root
+        while curr and curr.left:
+            next_level_node = curr.left
+            
+            while curr:
+                curr.left.next = curr.right
+                if curr.next:
+                    curr.right.next = curr.next.left
+                curr = curr.next
+                
+            curr = next_level_node
+            
         return root
         
         
