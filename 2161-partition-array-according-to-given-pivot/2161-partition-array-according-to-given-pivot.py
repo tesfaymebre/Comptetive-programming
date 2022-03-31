@@ -1,16 +1,15 @@
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
-        ans = []
+        left_side = []
+        right_side = []
+        count = 0
         
         for i in range(len(nums)):
             if nums[i] < pivot:
-                ans.append(nums[i])
+                left_side.append(nums[i])
+            elif nums[i] > pivot:
+                right_side.append(nums[i])
+            else:
+                count += 1
         
-        for j in range(len(nums)):
-            if nums[j] == pivot:
-                ans.append(nums[j])
-        
-        for k in range(len(nums)):
-            if nums[k] > pivot:
-                ans.append(nums[k])
-        return ans
+        return left_side + [pivot]*count + right_side
