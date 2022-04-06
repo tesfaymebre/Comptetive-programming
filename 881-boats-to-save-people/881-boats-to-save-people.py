@@ -6,17 +6,12 @@ class Solution:
         
         people.sort()
         
-        while p1 < p2:
-           
-            if people[p2] + people[p1] > limit:
-                count += 1
-                p2 -= 1
-            else:
-                count += 1
-                p1 += 1
-                p2 -= 1
-                
-        if p1 == p2:        
-            count += 1
+        while p1 <= p2:
             
+            if people[p2] + people[p1] <= limit:
+                p1 += 1  
+                
+            count += 1
+            p2 -= 1
+                
         return count
