@@ -5,18 +5,13 @@ class Solution:
         ptr1 = 0
         
         while occurence['R'] > 0 and occurence['D'] > 0:
-            if ptr1 in visited:
-                ptr1 += 1
-                continue
-                
             if ptr1 == len(senate):
                 ptr1 = 0
          
             find = 'D' if senate[ptr1] == 'R' else 'R'
             ptr2 = ptr1 + 1
             
-            while True:
-                # ptr2 = 0 if ptr1 == len(senate) - 1 else ptr1 + 1 
+            while ptr1 not in visited:
                 if ptr2 == len(senate):
                     ptr2 = 0
                 
