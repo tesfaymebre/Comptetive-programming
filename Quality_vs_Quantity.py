@@ -16,10 +16,3 @@ for i in range(t):
             break
     if red_tot <= blue_tot:
         print("NO")
-
-    # len = n // 2 + 1
-
-    # if sum(sequences[:len:1]) < sum(sequences[len::]):
-    #     print("YES")
-    # else:
-    #     print("NO")
