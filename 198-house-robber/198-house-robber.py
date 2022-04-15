@@ -12,3 +12,15 @@ class Solution:
             return memo[i]
         
         return dp(0)
+    
+    # solution 2 iterative
+    
+#     prev = 0
+#         curr = 0
+        
+#         for x in nums:
+#             temp = prev
+#             prev = curr
+#             curr = max(temp + x, curr)
+            
+#         return curr
