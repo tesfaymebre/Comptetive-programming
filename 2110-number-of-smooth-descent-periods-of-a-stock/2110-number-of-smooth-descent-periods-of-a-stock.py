@@ -1,17 +1,16 @@
 class Solution:
     def getDescentPeriods(self, prices: List[int]) -> int:
         ans = 0
-        i ,j= 0,0
-        
+        i, count = 0, 1
         
         while i < len(prices):
-            while  j < len(prices) - 1 and prices[j] - prices[j+1] == 1:
-                j +=1
-            count = j - i + 1
-            ans += count*(count + 1)//2
-            i = j+1
-            j +=1
-           
-        
+            if i < len(prices) -1 and prices[i] - prices[i+1] == 1:
+                count += 1
+            else:
+                ans += count*(count + 1)//2
+                count = 1
+                
+            i += 1
+            
         return ans
                 
