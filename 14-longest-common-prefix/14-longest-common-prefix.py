@@ -12,9 +12,6 @@ class Solution:
     def insert(self, word: str) -> None:
         curr = self.root
         
-        if word == "" and word not in curr.children:
-            curr.children[word] = TrieNode()
-        
         for letter in word:
             if letter not in curr.children:
                 curr.children[letter] = TrieNode()
@@ -24,6 +21,9 @@ class Solution:
 
     def longestCommonPrefix(self, strs: List[str]) -> str:
         for word in strs:
+            if not word:
+                return ""
+            
             self.insert(word)
         
         curr = self.root
