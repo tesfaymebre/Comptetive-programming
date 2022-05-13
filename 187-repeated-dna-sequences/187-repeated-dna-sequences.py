@@ -5,22 +5,28 @@ class Solution:
         j = 10
         
         def getMask(seq):
-            mask = [0,0,0,0]
+            mask = 0
             
-            for i in range(len(seq)):
+            for i in range(10):
                 if seq[i] == 'A':
-                    mask[0] |= (1<<i)
-                if seq[i] == 'C':
-                    mask[1] |= (1<<i)
-                if seq[i] == 'T':
-                    mask[2]  |= (1<<i)
-                if seq[i] == 'G':
-                    mask[3] |= (1<<i)
+                    mask |= (1<<i)
+            
+            for i in range(10,20):
+                if seq[i%10] == 'C':
+                    mask |= (1<<i)
+            
+            for i in range(20,30):
+                if seq[i%10] == 'T':
+                    mask  |= (1<<i)
+            
+            for i in range(30,40):
+                if seq[i%10] == 'G':
+                    mask |= (1<<i)
                     
             #print(mask)
-            return tuple(mask)
+            return mask
 
-        for i in range(len(s)):
+        for i in range(len(s)-9):
             if j <= len(s):
                 temp = s[i:i+j]
                 mask = getMask(temp)
