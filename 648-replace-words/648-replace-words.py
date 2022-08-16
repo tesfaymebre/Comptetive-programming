@@ -19,21 +19,17 @@ class Solution:
         
     def search(self, word: str) -> bool:
         curr = self.root
-        new_word = []
         
-        for letter in word:
+        for indx,letter in enumerate(word):
+            if curr.isWord:
+                return word[:indx]
+            
             if letter not in curr.children:
                 return word
             
             curr = curr.children[letter]
-            new_word.append(letter)
             
-            if curr.isWord:
-                return "".join(new_word)
-            
-            
-        
-        return "".join(new_word)
+        return word
         
     def replaceWords(self, dictionary: List[str], sentence: str) -> str:
         for word in dictionary:
