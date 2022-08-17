@@ -10,11 +10,10 @@ class Solution:
                 nexts += 1
                 continue
             
-            if intervals[curr][1] <= intervals[nexts][1]:
-                nexts += 1
-            else:
+            if intervals[curr][1] > intervals[nexts][1]:
                 curr = nexts
-                nexts += 1
+
+            nexts += 1
             ans += 1
         
         return ans
