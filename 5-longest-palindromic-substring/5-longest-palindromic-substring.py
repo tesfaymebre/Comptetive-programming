@@ -8,17 +8,13 @@ class Solution:
                 left -= 1
                 right += 1
             
-            return (left,right)
+            return s[left+1:right]
         
         for i in range(len(s)):
-            left,right = center(i-1,i+1)
-            subStr = s[left+1:right]
-            
+            subStr = center(i-1,i+1)
             ans = subStr if len(subStr) > len(ans) else ans
             
-            left,right = center(i,i+1)
-            subStr = s[left+1:right]
-
+            subStr = center(i,i+1)
             ans = subStr if len(subStr) > len(ans) else ans
             
         return ans
