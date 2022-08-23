@@ -1,24 +1,26 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        myDictP=collections.Counter(p)
-        myDictS=collections.Counter(s[:len(p)])
-        output=[]
-        i=0
-        j=len(p)
+        myDictP = Counter(p)
+        myDictS = Counter(s[:len(p)])
+        ans = []
         
-        while j<=len(s):
-            if myDictS==myDictP:
-                output.append(i)
-
-            myDictS[s[i]]-=1
-            if myDictS[s[i]]<=0:
-                myDictS.pop(s[i])
-                
-            if j<len(s):    
-                 myDictS[s[j]]+=1
-            j+=1
-            i+=1
+        p1,p2 = 0,len(p)
+        
+        while p2 <= len(s):
+            if myDictP == myDictS:
+                ans.append(p1)
             
-        return output
+            myDictS[s[p1]] -= 1
+            if myDictS[s[p1]] <= 0:
+                myDictS.pop(s[p1])
                 
+            if p2 < len(s):
+                myDictS[s[p2]] += 1
+                
+            p2 += 1
+            p1 += 1
+            
+        return ans
+                
+            
                     
