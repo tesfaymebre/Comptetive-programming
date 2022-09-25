@@ -1,17 +1,16 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        li = {"(":")","{":"}","[":"]"}
-        li2 = []
+        open_close = {"(":")","{":"}","[":"]"}
+        stack = []
         for x in s:
-            if x in li:
-                li2.append(li[x])
-            elif len(li2) > 0 :
-                val = li2.pop()
+            if x in open_close:
+                stack.append(open_close[x])
+            elif len(stack) > 0 :
+                val = stack.pop()
                 if val != x:
                     return False
             else:
                 return False
-            
-        if len(li2)==0:        
-            return True
+                   
+        return len(stack) == 0
             
