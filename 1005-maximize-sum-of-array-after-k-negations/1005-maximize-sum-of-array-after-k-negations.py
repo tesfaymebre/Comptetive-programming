@@ -12,9 +12,4 @@ class Solution:
                 
             i += 1
         
-        nums.sort()
-        
-        if k % 2 == 1:
-            nums[0] = -1*nums[0]
-        
-        return sum(nums)
+        return sum(nums) - 2*min(nums) if k % 2 else sum(nums)
