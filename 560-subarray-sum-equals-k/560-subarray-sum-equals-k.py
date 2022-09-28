@@ -1,15 +1,15 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        seen = dict()
-        seen[0] = 1
-        total = 0
+        d = defaultdict(int)
+        d[0] = 1
+        prefix_sum = 0
         count = 0
         
         #using prefix sum
         
         for val in nums:
-            total += val
-            count += seen.get(total - k, 0)
-            seen[total] = seen.get(total,0) + 1
+            prefix_sum += val
+            count += d[prefix_sum - k]
+            d[prefix_sum] += 1
             
         return count
