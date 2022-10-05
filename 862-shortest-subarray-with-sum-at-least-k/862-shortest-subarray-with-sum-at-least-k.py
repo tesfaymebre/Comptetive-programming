@@ -2,7 +2,6 @@ class Solution:
     def shortestSubarray(self, nums: List[int], k: int) -> int:
         que = deque([[0,0]])
         cur_sum = 0
-        left = 0
         ans = len(nums) + 1
         
         for i in range(len(nums)):
