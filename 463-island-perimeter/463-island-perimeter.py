@@ -9,16 +9,12 @@ class Solution:
                 
             for x,y in DIR:
                 r,c = i+x, j+y
-                if (r,c) not in self.visited and not in_bound(r,c):
-                    self.visited.add((r,c))
+                
+                if not in_bound(r,c) or grid[r][c] == 0:
                     self.perimeter += 1
-                    
-                elif in_bound(r,c):
-                    if grid[r][c] == 1:
-                        dfs(r, c)
-                    else:
-                        self.visited.add((r,c))
-                        self.perimeter += 1
+                    self.visited.add((r,c))
+                else:
+                    dfs(r, c)
                 
         self.visited = set()
         self.perimeter = 0
