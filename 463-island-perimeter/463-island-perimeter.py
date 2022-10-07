@@ -12,7 +12,6 @@ class Solution:
                 
                 if not in_bound(r,c) or grid[r][c] == 0:
                     self.perimeter += 1
-                    self.visited.add((r,c))
                 else:
                     dfs(r, c)
                 
