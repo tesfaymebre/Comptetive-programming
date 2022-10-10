@@ -6,15 +6,12 @@
 #         self.right = right
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
-        self.pre_sum = 0
-        
-        def dfs(node):
+        def dfs(node,pre_sum):
             if not node:
-                return
-            dfs(node.right)
-            node.val += self.pre_sum
-            self.pre_sum = node.val
-            dfs(node.left)
+                return pre_sum
             
-        dfs(root)
+            node.val += dfs(node.right,pre_sum)
+            return dfs(node.left,node.val)
+            
+        dfs(root,0)
         return root
