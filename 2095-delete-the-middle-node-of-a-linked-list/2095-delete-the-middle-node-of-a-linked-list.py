@@ -9,16 +9,11 @@ class Solution:
             return None
         
         slow = head
-        fast = head
+        fast = head.next.next
         
-        while fast.next and fast.next.next:
-            fast = fast.next.next
+        while fast and fast.next:
             slow = slow.next
+            fast = fast.next.next
             
-        if not fast.next:
-            slow.val = slow.next.val
-            slow.next = slow.next.next
-        else:
-            slow.next = slow.next.next
-            
+        slow.next = slow.next.next
         return head
