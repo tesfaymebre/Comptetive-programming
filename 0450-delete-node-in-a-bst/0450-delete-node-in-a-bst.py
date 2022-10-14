@@ -6,6 +6,14 @@
 #         self.right = right
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        def successor(node):
+            mini = node.val
+            while node.left:
+                node = node.left
+                mini = node.val
+                
+            return mini
+        
         def BST_del(node,key):
             if not node: 
                 return None
@@ -18,15 +26,8 @@ class Solution:
                     return node.left
                 if not node.left: 
                     return node.right
-
-                temp = node.right
-                mini = temp.val
-                
-                while temp.left:
-                    temp = temp.left
-                    mini = temp.val
                     
-                node.val = mini
+                node.val = successor(node.right)
                 node.right = BST_del(node.right,node.val)
             return node
         
