@@ -1,6 +1,17 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
+        #bottom up dp solution
+        pos1 = 1
+        pos2 = 2
+        
+        for i in range(3,n+2):
+            curr = pos1+pos2
+            pos1 = pos2
+            pos2 = curr
+            
+        return pos1
        
+    """
     #top down dp solution
         memo = {}
         
@@ -17,4 +28,5 @@ class Solution:
             return memo[pos]
         
         return dp(n)
+    """
     
