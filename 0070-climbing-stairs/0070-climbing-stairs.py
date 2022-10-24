@@ -1,15 +1,18 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
         #bottom up dp solution
+        if n == 1:
+            return 1
+        
         pos1 = 1
         pos2 = 2
         
-        for i in range(3,n+2):
+        for i in range(2,n):
             curr = pos1+pos2
             pos1 = pos2
             pos2 = curr
             
-        return pos1
+        return pos2
        
     """
     #top down dp solution
