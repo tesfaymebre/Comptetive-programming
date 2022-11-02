@@ -2,7 +2,7 @@ class Solution:
     def findComplement(self, num: int) -> int:
         complement = ""
         
-        while True:
+        while num:
             temp = num&1
             num = num>>1
             
@@ -10,8 +10,5 @@ class Solution:
                 complement = '0'+complement
             else:
                 complement = '1'+complement
-                
-            if num == 0:
-                break
                 
         return int(complement,2)
