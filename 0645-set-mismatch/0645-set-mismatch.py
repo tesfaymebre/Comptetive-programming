@@ -18,16 +18,11 @@ class Solution:
             if i & last_on_bit:
                 num1 ^= i
                 
-        flag = False
         for num in nums:
             if num1 == num:
-                flag = True
-                break
-                
-        if flag:
-            return [num1,num1^xor]
-        else:
-            return [num1^xor,num1]
+                return [num1,num1^xor]
+       
+        return [num1^xor,num1]
        
         
         """
