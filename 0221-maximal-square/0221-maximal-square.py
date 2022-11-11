@@ -1,6 +1,25 @@
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
-        #bottom up solution
+        #space optimized bottom up dp solution
+        row = len(matrix)
+        col = len(matrix[0])
+        
+        dp = [[0]*(col+1) for _ in range(2)]
+        max_length = 0
+        
+        for r in range(row-1,-1,-1):
+            for c in range(col-1,-1,-1):
+                if matrix[r][c] == '1':
+                    dp[r&1][c] = min(dp[r&1][c+1],dp[(r+1)&1][c],dp[(r+1)&1][c+1]) + 1
+                else:
+                    dp[r&1][c] = 0
+                    
+                max_length = max(max_length,dp[r&1][c])
+                    
+        return max_length**2
+    
+        """
+        #bottom up dp solution
         row = len(matrix)
         col = len(matrix[0])
         
@@ -14,9 +33,10 @@ class Solution:
                     max_length = max(max_length,dp[r][c])
                     
         return max_length**2
-    
         """
-        #top down solution
+        
+        """
+        #top down dp solution
         def dp(r,c):
             if (r,c) in memo:
                 return memo[(r,c)]
