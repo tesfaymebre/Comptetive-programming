@@ -1,6 +1,7 @@
 class DSU:
     def __init__(self,size):
         self.parent = [i for i in range(size)]
+        self.rank = [1]*size
         
     def find(self,city):
         if self.parent[city] != city:
@@ -14,6 +15,9 @@ class DSU:
         
         if parent_a == parent_b:
             return 0
+        
+        if self.rank[parent_a] < self.rank[parent_b]:
+            parent_a,parent_b = parent_b,parent_a
             
         self.parent[parent_a] = parent_b
         return 1
