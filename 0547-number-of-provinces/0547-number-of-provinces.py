@@ -19,7 +19,8 @@ class DSU:
         if self.rank[parent_a] < self.rank[parent_b]:
             parent_a,parent_b = parent_b,parent_a
             
-        self.parent[parent_a] = parent_b
+        self.parent[parent_b] = parent_a
+        self.rank[parent_a] += self.rank[parent_b]
         return 1
     
 class Solution:
