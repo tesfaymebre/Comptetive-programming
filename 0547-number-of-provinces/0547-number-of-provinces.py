@@ -1,5 +1,39 @@
+class DSU:
+    def __init__(self,size):
+        self.parent = [i for i in range(size)]
+        
+    def find(self,city):
+        if self.parent[city] != city:
+            self.parent[city] = self.find(self.parent[city])
+            
+        return self.parent[city]
+    
+    def union(self,city_a, city_b):
+        parent_a = self.find(city_a)
+        parent_b = self.find(city_b)
+        
+        if parent_a == parent_b:
+            return 0
+            
+        self.parent[parent_a] = parent_b
+        return 1
+    
 class Solution:
+        
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
+        size = len(isConnected)
+        
+        union_find = DSU(size)
+        province = size
+        
+        for i in range(size):
+            for j in range(size):
+                if i!=j and isConnected[i][j]:
+                    province -= union_find.union(i,j)
+                    
+        return province
+        
+        """
         # bfs solution
         
         def bfs(queue):
@@ -26,6 +60,9 @@ class Solution:
                 province += 1
                 
         return province
+        """
+        
+        
         
         """
         # dfs solution
