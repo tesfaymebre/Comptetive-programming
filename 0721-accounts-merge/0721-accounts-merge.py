@@ -36,19 +36,18 @@ class Solution:
                 
                 email_to_name_idx[email] = union_find.parent[name_idx]
                 
-        ans = defaultdict(set)
+        result = defaultdict(list)
         
-        for name_idx in range(size):
+        for email,name_idx in email_to_name_idx.items():
             root_name_idx = union_find.find(name_idx)
+            result[root_name_idx].append(email)
             
-            for account in accounts[name_idx][1:]:
-                ans[root_name_idx].add(account)
             
-        result = []
+        ans = []
         
-        for name_idx,emails in ans.items():
-            result.append([accounts[name_idx][0]] + sorted(list(emails)))
+        for name_idx,emails in result.items():
+            ans.append([accounts[name_idx][0]] + sorted(emails))
             
-        return result
+        return ans
                 
        
