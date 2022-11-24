@@ -1,32 +1,33 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        R, C = len(board), len(board[0])
+        row, col = len(board), len(board[0])
+        DIR = [[0,1],[1,0],[0,-1],[-1,0]]
         
         
-        def dfs(r, c, ci):
+        def dfs(r, c, idx):
             
-            if ci == len(word):
+            if idx == len(word):
                 return True
             
-            if r < 0 or c < 0 or r >= R or c >= C:
+            if r < 0 or c < 0 or r >= row or c >= col:
                 return False
             
-            if board[r][c] != word[ci]:
+            if board[r][c] != word[idx]:
                 return False
-            
-            curr = board[r][c]
+           
             board[r][c] = "#"
-            a1 = dfs(r + 1, c, ci + 1)
-            b1 = dfs(r - 1, c, ci + 1)
-            c1 = dfs(r, c + 1, ci + 1)
-            d1 = dfs(r, c - 1, ci + 1)
-            board[r][c] = curr
             
-            return a1 or b1 or c1 or d1
+            for x,y in DIR:
+                if dfs(r + x, c+y, idx + 1):
+                    return True
+           
+            board[r][c] = word[idx]
+            
+            return False
             
         
-        for r in range(R):
-            for c in range(C):
+        for r in range(row):
+            for c in range(col):
                 if board[r][c] == word[0] and dfs(r, c, 0):
                     return True
                 
