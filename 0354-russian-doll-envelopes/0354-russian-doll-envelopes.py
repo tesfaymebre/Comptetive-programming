@@ -8,7 +8,7 @@ class Solution:
             while left <= right:
                 mid = left + (right-left)//2
                 
-                if accumulate[mid][1] < h:
+                if accumulate[mid] < h:
                     left = mid + 1
                 else:
                     right = mid - 1
@@ -16,15 +16,15 @@ class Solution:
             return left
         
         envelopes.sort(key = lambda x: (x[0],-x[1]))
-        accumulate = [envelopes[0]]
+        accumulate = [envelopes[0][1]]
         
         for w,h in envelopes:
             pos = BS(h)
             
-            if pos == len(accumulate) and accumulate[-1][0] < w:
-                accumulate.append([w,h])
+            if pos == len(accumulate):
+                accumulate.append(h)
             else:
-                accumulate[pos] = [w,h]
+                accumulate[pos] = h
         
         return len(accumulate)
         
