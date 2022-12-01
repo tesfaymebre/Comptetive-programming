@@ -1,16 +1,25 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        
-        @cache
-        def helper(idx,sub1):
-            if sub1 == total - sub1:
+        def dp(i, part):
+            if (i, part) in memo:
+                return memo[(i, part)]
+            if part == 0:
                 return True
-            
-            if idx == len(nums) or sub1 > total - sub1:
+            if i >= len(nums):
                 return False
             
-            return helper(idx+1,sub1+nums[idx]) or helper(idx+1,sub1)
+            if dp(i + 1 , part - nums[i]) or dp(i + 1, part):
+                memo[(i, part)] = True
+                return True
+            memo[(i, part)] = False
+            return False
         
-        total = sum(nums)
-        return helper(0,0)
+        memo = {}
+        totalSum = sum(nums)
+        if totalSum % 2 == 1:
+            return False
+        
+        partition = totalSum // 2
+        return dp(0, partition)
+        
         
