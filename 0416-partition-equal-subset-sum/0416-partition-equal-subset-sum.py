@@ -1,5 +1,26 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
+        #space optimized bottom up dp solution
+        
+        total = sum(nums)
+        maxx = max(nums)
+        
+        if total & 1 == 1:
+            return False
+        
+        dp = [True]+[False]*(total//2 + maxx)
+        
+        
+        for idx in range(len(nums)):
+            for curr_total in range((total//2),-1,-1):
+                dp[curr_total] = dp[curr_total-nums[idx]] or dp[curr_total]
+                
+            if dp[total//2]:
+                return True
+            
+        return False
+        
+        """
         #bottom up dp solution
         total = sum(nums)
         maxx = max(nums)
@@ -18,6 +39,7 @@ class Solution:
                 return True
             
         return False
+        """
         
         """
         # top down dp solution
