@@ -1,5 +1,26 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
+        #bottom up dp solution
+        total = sum(nums)
+        maxx = max(nums)
+        
+        if total & 1 == 1:
+            return False
+        
+        dp = [[True]+[False]*(total//2 + maxx) for _ in range(len(nums)+1)]
+        
+        
+        for idx in range(1,len(nums)+1):
+            for curr_total in range(total//2 + 1):
+                dp[idx][curr_total] = dp[idx-1][curr_total-nums[idx-1]] or dp[idx-1][curr_total]
+                
+            if dp[idx][total//2]:
+                return True
+            
+        return False
+        
+        """
+        # top down dp solution
         memo = {}
         
         def helper(idx,curr_total):
@@ -21,4 +42,5 @@ class Solution:
             return False
         
         return helper(0,total//2)
+        """
         
