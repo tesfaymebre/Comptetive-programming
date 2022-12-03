@@ -1,5 +1,33 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
+        #bottom up dp soltution
+        size1 = len(word1)
+        size2 = len(word2)
+        
+        dp = [[0]*(size2 + 1) for _ in range(size1 + 1)]
+        
+        for idx1 in range(size1 + 1):
+            dp[idx1][-1] += size1-idx1
+            
+        for idx2 in range(size2 + 1):
+            dp[-1][idx2] += size2-idx2
+            
+        for idx1 in range(size1 - 1,-1,-1):
+            for idx2 in range(size2 - 1,-1,-1):
+                if word1[idx1] == word2[idx2]:
+                    dp[idx1][idx2] = dp[idx1+1][idx2+1]
+                else:
+                    insert = dp[idx1][idx2+1]
+                    delete = dp[idx1+1][idx2]
+                    replace = dp[idx1+1][idx2+1]
+                    
+                    dp[idx1][idx2] = 1 + min(insert,delete,replace)
+                    
+        return dp[0][0]
+        
+        """
+        #top down dp solution
+        
         size1 = len(word1)
         size2 = len(word2)
         
@@ -22,3 +50,4 @@ class Solution:
         memo = {}
         
         return helper(0,0)
+        """
