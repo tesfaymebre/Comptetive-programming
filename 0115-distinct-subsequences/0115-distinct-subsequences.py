@@ -1,5 +1,24 @@
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
+        #space optimized bottom up dp solution
+        size_s = len(s)
+        size_t = len(t)
+        
+        dp = [[0]*size_t + [1] for _ in range(2)]
+        
+        for idx_s in range(size_s-1,-1,-1):
+            for idx_t in range(size_t-1,-1,-1):
+                count = 0
+                
+                if s[idx_s] == t[idx_t]:
+                    count += dp[(idx_s+1)&1][idx_t+1]
+                    
+                count += dp[(idx_s+1)&1][idx_t]
+                dp[(idx_s)&1][idx_t] = count
+                
+        return dp[0][0]
+    
+        """
         #bottom up dp solution
         size_s = len(s)
         size_t = len(t)
@@ -17,6 +36,7 @@ class Solution:
                 dp[idx_s][idx_t] = count
                 
         return dp[0][0]
+        """
         
         """
         #top down dp solution
