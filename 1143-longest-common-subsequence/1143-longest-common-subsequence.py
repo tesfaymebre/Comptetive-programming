@@ -1,5 +1,20 @@
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        #space optimized bottom up solution
+        
+        r,c = len(text1) + 1,len(text2) + 1
+        dp = [[0]*c for _ in range(2)]
+        
+        for i in range(1,r):
+            for j in range(1,c):
+                if text1[i-1] == text2[j-1]:
+                    dp[i&1][j] = dp[(i-1)&1][j-1] + 1
+                else:
+                    dp[i&1][j] = max(dp[(i-1)&1][j],dp[i&1][j-1]) 
+                    
+        return dp[(r-1)&1][c-1]
+    
+        """
         #solution 1 using bottom up dp
         
         r,c = len(text1) + 1,len(text2) + 1
@@ -9,6 +24,7 @@ class Solution:
             for j in range(1,c):
                 dp[i][j] = dp[i-1][j-1] + 1 if text1[i-1] == text2[j-1] else max(dp[i-1][j],dp[i][j-1])       
         return dp[-1][-1]
+        """
         
         #solution 2 using top down dp
         
