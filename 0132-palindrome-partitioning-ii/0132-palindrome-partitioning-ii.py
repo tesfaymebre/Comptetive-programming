@@ -1,30 +1,25 @@
 class Solution:
     def minCut(self, s: str) -> int:
         
-        @cache
-        def isPalindrome(left,right):
-            if left > right:
-                return True
-            if s[left] != s[right]:
-                return False
-            
-            return isPalindrome(left+1,right-1)
-        
-        @cache
         def helper(left):
-            if left == len(s):
-                return 0
-            
-            count = float('inf')
-            
-            for right in range(left,len(s)):
+            if left not in memo:
+                if left == len(s):
+                    return 0
+
+                count = float('inf')
+
+                for right in range(left,len(s)):
+
+                    if s[left:right+1] == s[left:right+1][::-1]:
+                        count = min(count,1 + helper(right+1))
+
+                memo[left] = count
                 
-                if isPalindrome(left,right):
-                    count = min(count,1 + helper(right+1))
-                    
-            return count
+            return memo[left]
         
-        return helper(0)-1
+        memo = {}
+        
+        return helper(0) - 1
         
                     
                 
