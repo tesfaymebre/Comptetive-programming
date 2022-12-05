@@ -1,19 +1,23 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         
-        def helper(left,path):
-            if left == len(s):
-                self.result.append(path)
-                return
+        def helper(left):
+            if left not in memo:
+                if left == len(s):
+                    return [[]]
+
+                result = []
+
+                for right in range(left,len(s)):
+                    if s[left:right+1] == s[left:right+1][::-1]:
+                        sub_partitions = helper(right+1)
+
+                        result += [[s[left:right+1]] + p for p in sub_partitions]
+
+                memo[left] = result
             
-            for right in range(left,len(s)):
-                if s[left:right+1] == s[left:right+1][::-1]:
-                    helper(right+1,path + [s[left:right+1]])
-                    
-            return
+            return memo[left]
         
-        self.result = []
+        memo = {}
         
-        helper(0,[])
-        
-        return self.result
+        return helper(0)
