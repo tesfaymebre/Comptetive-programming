@@ -1,21 +1,23 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
+        
         #space optimized bottom up dp solution
         size = len(coins)
-        dp = [[1]+[0]*amount for _ in range(2)]
+        dp = [1]+[0]*amount
         
         for pos in range(size-1,-1,-1):
             for capacity in range(amount+1):
                 if capacity >= coins[pos]:
-                    dp[pos&1][capacity] = dp[pos&1][capacity-coins[pos]] + dp[(pos+1)&1][capacity]
+                    dp[capacity] = dp[capacity-coins[pos]] + dp[capacity]
                 else:
-                    dp[pos&1][capacity] = dp[(pos+1)&1][capacity]
+                    dp[capacity] = dp[capacity]
                     
-        return dp[0][amount]
+        return dp[amount]
     
         
         # time complexity = O(n*amount) where n is len(coins) 
-        # space complexity = O(2*amount) = O(amount)
+        # space complexity = O(amount)
+        
     
         """
         #bottom up dp solution
