@@ -1,5 +1,26 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
+        # bottom up dp solution little bit time optimized
+        
+        size = len(s)
+        dp = [[False]*(size+1) for _ in range(size+1)]
+        
+        count = 0
+        
+        for left in range(size-1,-1,-1):
+            for right in range(left,size):
+                if s[left] == s[right]:
+                    if right - left < 2:
+                        dp[left][right] = True
+                    else:
+                        dp[left][right] = dp[left+1][right-1]
+                        
+                if dp[left][right]:
+                    count += 1
+                    
+        return count
+    
+        """
         #bottom up dp solution
         
         size = len(s)
@@ -7,10 +28,8 @@ class Solution:
         dp = [[False]*(size+1) for _ in range(size+1)]
         
         for left in range(size-1,-1,-1):
-            for right in range(size):
-                if left > right:
-                    dp[left][right] = True
-                elif s[left] == s[right]:
+            for right in range(left,size):
+                if s[left] == s[right]:
                     if right - left > 1:
                         dp[left][right] = dp[left+1][right-1]
                     else:
@@ -23,7 +42,7 @@ class Solution:
                 if dp[left][right]:
                     count += 1  
                     
-        return count
+        return count"""
         
         """
         #top down dp solution
@@ -54,7 +73,7 @@ class Solution:
         
 
         """
-        # starting from center
+        # starting from center and expanding to both ways
          count = 0
         
         for center in range(len(s)):
