@@ -1,5 +1,23 @@
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
+        #using stack
+        
+        stack = [float('inf')]
+        result = 0
+        
+        for i in range(len(arr)):
+            while stack and stack[-1] <= arr[i]:
+                result += stack.pop()*min(stack[-1],arr[i])
+                
+            stack.append(arr[i])
+            
+        while len(stack) > 2:
+            result += stack.pop()*stack[-1]
+            
+        return result
+        
+        
+        """
         #greedy approach
         result = 0
         
@@ -14,6 +32,7 @@ class Solution:
             arr.pop(idx_min)
             
         return result
+        """
         
         """
         #bottom up dp solution
