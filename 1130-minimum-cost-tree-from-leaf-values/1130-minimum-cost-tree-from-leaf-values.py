@@ -1,5 +1,21 @@
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
+        #greedy approach
+        result = 0
+        
+        while len(arr) > 1:
+            idx_min = arr.index(min(arr))
+            
+            if 0 < idx_min < len(arr)-1:
+                result += arr[idx_min]*min(arr[idx_min-1],arr[idx_min+1])
+            else:
+                result += arr[idx_min]*(arr[idx_min-1] if idx_min-1 != -1 else arr[idx_min+1] )
+                
+            arr.pop(idx_min)
+            
+        return result
+        
+        """
         #bottom up dp solution
         
         size = len(arr)
@@ -18,6 +34,7 @@ class Solution:
                     dp[i][j] = min(dp[i][j],left,right)
                     
         return dp[0][size-1]
+        """
     
         """
         #top down dp solution
