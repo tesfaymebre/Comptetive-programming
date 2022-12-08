@@ -4,11 +4,10 @@ class Solution:
             if i == j:
                 return nums[i]
            
-            ans = max(nums[i] - dp(i+1,j),nums[j] - dp(i,j-1))
-            return ans
+            curr_score = max(nums[i] - dp(i+1,j),nums[j] - dp(i,j-1))
+            return curr_score
         
-        ans = dp(0,len(nums)-1)
-        if ans >= 0:
-            return True
-        else:
-            return False
+        player_1_score = dp(0,len(nums)-1)
+        
+        return True if player_1_score >= 0 else False
+        
