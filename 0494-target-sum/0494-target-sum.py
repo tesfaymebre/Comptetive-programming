@@ -1,5 +1,22 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
+        #dp with hash
+        
+        steps = defaultdict(int)
+        steps[0] = 1
+        
+        for val in nums:
+            next_steps = defaultdict(int)
+            
+            for step in steps:
+                next_steps[step+val] += steps[step]
+                next_steps[step-val] += steps[step]
+                
+            steps = next_steps
+            
+        return steps[target]
+        
+        """
         #space optimized bottom up dp soltution
         
         size = len(nums)
@@ -17,6 +34,7 @@ class Solution:
     
         #time complexity: O(total*n) 
         #space complexity: O(2*total) = O(total)
+        """
     
         """
         #bottom up dp soltution
