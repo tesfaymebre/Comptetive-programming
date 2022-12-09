@@ -9,10 +9,8 @@ class Solution:
         dp[size&1][target+total] = 1
         
         for idx in range(size-1,-1,-1):
-            dp[idx&1] = [0]*(2*total+max(nums)+1)
-            
             for curr_sum in range(-total,total+1):
-                dp[idx&1][curr_sum + total] += dp[(idx+1)&1][curr_sum-nums[idx]+total]
+                dp[idx&1][curr_sum + total] = dp[(idx+1)&1][curr_sum-nums[idx]+total]
                 dp[idx&1][curr_sum + total] += dp[(idx+1)&1][curr_sum+nums[idx]+total]
                 
         return dp[0][total]
