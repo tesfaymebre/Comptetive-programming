@@ -1,40 +1,29 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        target_freq = Counter(t)
-        s_freq = defaultdict(int)
+        count_t = Counter(t)
+        count_sub = defaultdict(int)
+        
         seen = set()
-        ans = ''
-        ans_size = float('inf')
+        shortest = (float('inf'),'')
         
         left = 0
         for right in range(len(s)):
-            if s[right] in target_freq:
-                seen.add(s[right])
-                s_freq[s[right]] += 1
+            count_sub[s[right]] += 1
             
-            while len(seen) == len(target_freq): 
-                flag = True
-                for key,val in target_freq.items():
-                    if s_freq[key] < val:
-                        flag = False
-                        break
-                        
-                if not flag:
-                    break
-                    
-                if ans_size > right-left+1:
-                    ans = s[left:right+1]
-                    ans_size = right-left+1
-
-                if s_freq[s[left]] == 1:
+            if s[right] in count_t and count_sub[s[right]] >= count_t[s[right]]:
+                seen.add(s[right])
+            
+            while left <= right and len(seen) == len(count_t):
+                shortest = min(shortest,(right-left+1,s[left:right+1]))
+                count_sub[s[left]] -= 1
+                
+                if s[left] in count_t and count_sub[s[left]] < count_t[s[left]]:
                     seen.remove(s[left])
-                s_freq[s[left]] -= 1
+                    
                 left += 1
                 
-        return ans
-                    
-                    
-                    
+        return shortest[1]
                 
-                         
+            
+        
         
