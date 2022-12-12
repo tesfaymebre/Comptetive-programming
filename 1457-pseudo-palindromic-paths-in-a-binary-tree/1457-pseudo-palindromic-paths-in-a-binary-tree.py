@@ -6,32 +6,25 @@
 #         self.right = right
 class Solution:
     def pseudoPalindromicPaths (self, root: Optional[TreeNode]) -> int:
-        self.paths = 0
-        freq = [0]*10
-        
-        def dfs(node,freq):
-            if not node.left and not node.right:
-                odd_freq = 0
+        def dfs(node,seen):
+            if node.val in seen:
+                seen.remove(node.val)
+            else:
+                seen.add(node.val)
                 
-                for i in range(len(freq)):
-                    if freq[i] % 2:
-                        odd_freq += 1
-                        
-                if odd_freq <= 1:
-                    self.paths += 1
-                    
-                return
+            if not node.left and not node.right:
+                return 1 if len(seen) <= 1 else 0
+            
+            left = 0
             
             if node.left:
-                freq[node.left.val] += 1
-                dfs(node.left,freq)
-                freq[node.left.val] -= 1
-                
+                left = dfs(node.left,seen.copy())
+              
+            right = 0
+            
             if node.right:
-                freq[node.right.val] += 1
-                dfs(node.right,freq)
-                freq[node.right.val] -= 1
+                right = dfs(node.right,seen.copy())
                 
-        freq[root.val] += 1
-        dfs(root,freq)
-        return self.paths
+            return left + right
+        
+        return dfs(root,set())
