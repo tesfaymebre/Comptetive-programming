@@ -1,5 +1,24 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        # space optimized bottom up dp solution
+        
+        size = len(nums)
+        
+        prev = 0
+        curr = 0
+        
+        for idx in range(size-1,-1,-1):
+            temp = prev
+            prev = curr
+            
+            pick = nums[idx] + temp
+            not_pick = prev
+            
+            curr = max(pick,not_pick)
+            
+        return curr
+    
+        """
         # bottom up dp solution
         
         size = len(nums)
@@ -12,6 +31,7 @@ class Solution:
             dp[idx] = max(pick,not_pick)
             
         return dp[0]
+        """
         
         """
         #top down dp solution
