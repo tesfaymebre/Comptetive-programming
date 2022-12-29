@@ -10,24 +10,19 @@ class Solution:
         heap = []
         result = []
         time = 0
-        idx = 0
+        task_idx = 0
         
-        while idx < len(sorted_tasks):
+        while task_idx < len(sorted_tasks) or heap:
             if not heap:
-                time = max(time,sorted_tasks[idx][0])
+                time = max(time,sorted_tasks[task_idx][0])
                 
-            if sorted_tasks[idx][0] <= time:
-                heapq.heappush(heap,(sorted_tasks[idx][1],sorted_tasks[idx][2]))
-                idx += 1
-                continue
-              
-            while heap and time < sorted_tasks[idx][0]:
-                temp,i = heapq.heappop(heap)
-                result.append(i)
-                time += temp
+            while task_idx < len(sorted_tasks) and time >= sorted_tasks[task_idx][0]:
+                _, process_time, original_idx = sorted_tasks[task_idx]
+                heapq.heappush(heap,(process_time,original_idx))
+                task_idx += 1
             
-        while heap:
-            temp,idx = heapq.heappop(heap)
-            result.append(idx)
-            
+            processing_time,curr_idx = heapq.heappop(heap)
+            result.append(curr_idx)
+            time += processing_time
+        
         return result
