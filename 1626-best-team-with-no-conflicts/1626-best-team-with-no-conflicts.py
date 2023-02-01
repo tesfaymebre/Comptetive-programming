@@ -1,15 +1,17 @@
 class Solution:
     def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:
-        l = len(scores)
-        mapped = [[ages[i], scores[i]] for i in range(l)]
-        mapped = sorted(mapped, key = lambda x : (x[0], x[1]))
-        dp = [i[1] for i in mapped]
-    
-        for i in range(l):
-            for j in range(0, i):
-                if mapped[j][1] <= mapped[i][1]:
-                    dp[i] = max(dp[i], mapped[i][1] + dp[j])
-                elif mapped[i][0] == mapped[j][0]:
-                    dp[i] = max(dp[i], mapped[i][1] + dp[j])
+        #bottom up dp solution
+        age_score = sorted(zip(ages,scores))
+
+        size = len(age_score)
+        dp = [0] * size
+        
+        for i in range(size - 1, -1, -1):
+            for j in range(i + 1, size):
+                if age_score[j][1] >= age_score[i][1]:
+                    dp[i] = max(dp[i], dp[j])
                     
+            dp[i] += age_score[i][1]
+            
         return max(dp)
+        
