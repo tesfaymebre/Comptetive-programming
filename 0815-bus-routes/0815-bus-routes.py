@@ -7,7 +7,7 @@ class Solution:
                 graph[stop].add(i)
 
         ans = 0
-        queue = collections.deque([source])
+        queue = deque([source])
         seenStop = set() 
         seenRoute = set() 
         seenStop.add(source) 
