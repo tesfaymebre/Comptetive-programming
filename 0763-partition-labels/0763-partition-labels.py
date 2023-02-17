@@ -1,19 +1,26 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
-        last_index = {}
-        
-        for index,c in enumerate(s):
-            last_index[c] = index
-         
-        arr = []
+        ans = []
+        start = 0
         left = 0
-        right = 0
+        right = len(s)-1
+        temp = 0
         
-        for curr_idx,c in enumerate(s):
-            right = max(right,last_index[c])
+        while left < len(s):
             
-            if curr_idx == right:
-                arr.append(right - left + 1)
-                left = right + 1
+            while right >= temp and s[right] != s[left]:
+                right -= 1
                 
-        return arr
+            temp = max(temp,right)
+            
+            if left == temp:
+                ans.append(temp - start + 1)
+                start = left + 1
+                
+            left += 1
+            right = len(s)-1
+            
+        return ans
+        
+        
+        
