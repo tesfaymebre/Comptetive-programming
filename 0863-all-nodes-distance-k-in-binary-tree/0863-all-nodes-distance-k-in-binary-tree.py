@@ -8,25 +8,9 @@
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         ans = []
-        def countDistance(node, dicts):
-            if not node:
-                return  float('inf')
-            if node == target:
-                dicts[node] = 0
-                return 0
-            left = countDistance(node.left, dicts)
-            right = countDistance(node.right, dicts)
-            
-            minn = min(left, right) - 1
-            if minn != float('inf'):
-                dicts[node] = minn
-            
-            return minn
         
         def find(node, k, visited):
-            if not node:
-                return None
-            if k < 0:
+            if not node or k < 0:
                 return None
             if k == 0:
                 ans.append(node.val)
@@ -34,10 +18,26 @@ class Solution:
                 find(node.left, k - 1, visited)
             if node.right not in visited:
                 find(node.right, k - 1, visited)
+
+        def countDistance(node, visited):
+            if not node:
+                return  float('inf')
+            
+            if node == target:
+                visited.add(node)
+                find(node, k, visited)
+                return 0
+
+            left = countDistance(node.left, visited)
+            right = countDistance(node.right, visited)
+            
+            minn = min(left, right) - 1
+            if minn != float('inf'):
+                visited.add(node)
+                find(node, k + minn, visited)
+
+            return minn
         
-        visited = {}
-        countDistance(root, visited)
-        for node in visited:
-            find(node, k + visited[node], visited)
-        
+
+        countDistance(root, set())
         return ans
