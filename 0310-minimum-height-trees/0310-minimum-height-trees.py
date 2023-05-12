@@ -1,8 +1,5 @@
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
-        if n == 1:
-            return [0]
-        
         graph = defaultdict(list)
         degree = [0]*n
         
@@ -15,7 +12,7 @@ class Solution:
         queue = deque()
         
         for i in range(n):
-            if degree[i] == 1:
+            if degree[i] <= 1:
                 queue.append(i)
         
         count_seen = len(queue)
