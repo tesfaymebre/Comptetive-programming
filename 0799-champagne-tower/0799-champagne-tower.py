@@ -22,7 +22,7 @@ class Solution:
                         flow = dp[row][col] - 1
                         dp[row][col] -= flow
                         dp[row + 1][col] += flow/2
-                        if col + 1 < len(dp[row+1]):
+                        if col + 1 < row+2:
                             dp[row+1][col+1] += flow/2
 
        
