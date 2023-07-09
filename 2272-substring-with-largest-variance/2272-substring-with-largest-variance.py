@@ -1,26 +1,29 @@
 class Solution:
-    def largestVariance(self, s: str) -> int:
-        f1 =0
-        f2 = 0
-        ans = 0
+    def helper(self,s):
+        ans = 0 
+        seen = set(s)
         
-        pairs = [(l1,l2) for l1 in set(s) for l2 in set(s) if l1 != l2]
-        
-        for _ in range(2):
-            for pair in pairs:
-                f1 = f2 = 0
+        for x in seen: 
+            for y in seen: 
                 
-                for ch in s:
-                    if ch not in pair:
-                        continue
-                        
-                    if ch == pair[0]: f1 += 1
-                    elif ch == pair[1]: f2 += 1
-                        
-                    if f1 < f2: f1 = f2 = 0
-                    elif f1 > 0 and f2 > 0:
-                        ans = max(ans,f1 - f2)
-                        
-            s = s[::-1]
-            
-        return ans
+                if x != y: 
+                    freq_1 = 0
+                    freq_2 = 0
+                    
+                    for ch in s:
+                        if ch == x:
+                            freq_1 += 1
+                        elif ch == y:
+                            freq_2 += 1
+                        else:
+                            continue
+                            
+                        if freq_1 < freq_2:
+                            freq_1 = 0
+                            freq_2 = 0
+                        elif freq_1 > 0 and freq_2 > 0:
+                            ans = max(ans, freq_1 - freq_2)
+        return ans 
+    
+    def largestVariance(self, s: str) -> int:
+        return max(self.helper(s),self.helper(s[::-1]))
