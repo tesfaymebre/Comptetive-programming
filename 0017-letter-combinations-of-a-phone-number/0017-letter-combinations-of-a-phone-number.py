@@ -18,9 +18,4 @@ class Solution:
         return result
         
                 
-    """
-    arr1 = [1,2]
-    arr1.extend([3,4])
-    
- arr1 + [3,4]
-    """
+   
