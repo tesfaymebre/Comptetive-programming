@@ -1,24 +1,46 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        #bottom up dp solution
-
+        #space optimized dp solution
         n = len(prices)
         max_transactions = 2  
-        dp = [[[0 for _ in range(2)] for _ in range(max_transactions + 1)] for _ in range(n+1)]
+        dp = [[[0 for _ in range(2)] for _ in range(max_transactions + 1)] for _ in range(2)]
 
         for i in range(n-1,-1,-1):
             for transaction in range(1,max_transactions + 1):
                 for bought in range(2):
-                    profit = dp[i+1][transaction][bought]
+                    profit = dp[(i+1)&1][transaction][bought]
                     
                     if bought:
-                        profit = max(profit, dp[i + 1][transaction - 1][0] + prices[i])
+                        profit = max(profit, dp[(i + 1)&1][transaction - 1][0] + prices[i])
                     else:
-                        profit = max(profit, dp[i + 1][transaction][1] - prices[i])
+                        profit = max(profit, dp[(i + 1)&1][transaction][1] - prices[i])
                         
-                    dp[i][transaction][bought] = profit
+                    dp[i&1][transaction][bought] = profit
         
         return dp[0][2][0]
+    
+        """
+        #bottom up dp solution
+
+        n = len(prices)
+            max_transactions = 2  
+            dp = [[[0 for _ in range(2)] for _ in range(max_transactions + 1)] for _ in range(n+1)]
+
+            for i in range(n-1,-1,-1):
+                for transaction in range(1,max_transactions + 1):
+                    for bought in range(2):
+                        profit = dp[i+1][transaction][bought]
+
+                        if bought:
+                            profit = max(profit, dp[i + 1][transaction - 1][0] + prices[i])
+                        else:
+                            profit = max(profit, dp[i + 1][transaction][1] - prices[i])
+
+                        dp[i][transaction][bought] = profit
+
+            return dp[0][2][0]
+        """
+        
 
         
         """
