@@ -1,5 +1,27 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
+        #bottom up dp solution
+
+        n = len(prices)
+        max_transactions = k  
+        dp = [[[0 for _ in range(2)] for _ in range(max_transactions + 1)] for _ in range(n+1)]
+
+        for i in range(n-1,-1,-1):
+            for transaction in range(1,max_transactions + 1):
+                for bought in range(2):
+                    profit = dp[i+1][transaction][bought]
+
+                    if bought:
+                        profit = max(profit, dp[i + 1][transaction - 1][0] + prices[i])
+                    else:
+                        profit = max(profit, dp[i + 1][transaction][1] - prices[i])
+
+                    dp[i][transaction][bought] = profit
+
+        return dp[0][k][0]
+        
+        
+        """
         # top  down dp solution
         memo = {}
         
@@ -23,3 +45,4 @@ class Solution:
             return memo[(i,transaction,bought)]
         
         return dp(0, k, False)
+        """
