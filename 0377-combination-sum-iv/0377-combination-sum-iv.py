@@ -8,10 +8,6 @@ class Solution:
                 if amount == 0:
                     return 1
                 
-                if idx == len(nums):
-                    return 0
-                
-                
                 count = 0
                 for i in range(len(nums)):
                     if nums[i] <= amount:
