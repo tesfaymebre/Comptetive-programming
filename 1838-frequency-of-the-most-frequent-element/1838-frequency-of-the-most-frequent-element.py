@@ -1,5 +1,26 @@
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
+        # sliding window approach
+        nums.sort()
+        
+        max_freq = 0
+        curr_window_sum = 0
+        left = 0
+        
+        for right in range(len(nums)):
+            curr_window_sum += nums[right]
+            
+            while left <= right and (right - left + 1)*nums[right] - curr_window_sum > k:
+                curr_window_sum -= nums[left]
+                left += 1
+                
+            max_freq = max(max_freq,right - left +1)
+            
+        return max_freq
+                
+        
+        """
+        # prefix sum approach
         nums.sort()
         
         ans = 0
@@ -22,3 +43,4 @@ class Solution:
             
         return ans
         
+        """
