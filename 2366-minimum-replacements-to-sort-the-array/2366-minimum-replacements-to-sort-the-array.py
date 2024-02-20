@@ -7,7 +7,7 @@ class Solution:
             if nums[i] <= nums[i + 1]:
                 continue
             
-            num_elements = (nums[i] + nums[i + 1] - 1) // nums[i + 1]
+            num_elements = ceil(nums[i] / nums[i + 1])
             
             answer += num_elements - 1
 
