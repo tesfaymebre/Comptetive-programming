@@ -19,14 +19,13 @@ class Solution:
             right,r_is_BST,r_min,r_max = isBST(node.right)
             
             if l_is_BST and r_is_BST and node.val > l_max and node.val < r_min:
-                if (not node.left or node.val > node.left.val) and (not node.right or node.val < node.right.val):
-                    curr_sum = left + node.val + right
-                    max_BST_sum = max(max_BST_sum,curr_sum)
-                    
-                    l_max = max(l_max,r_max,node.val)
-                    r_min = min(l_min,r_min,node.val)
-                    
-                    return (curr_sum , True,r_min,l_max)
+                curr_sum = left + node.val + right
+                max_BST_sum = max(max_BST_sum,curr_sum)
+
+                l_max = max(l_max,r_max,node.val)
+                r_min = min(l_min,r_min,node.val)
+
+                return (curr_sum , True,r_min,l_max)
             
             return (max(left,right), False,r_min,l_max)
         
