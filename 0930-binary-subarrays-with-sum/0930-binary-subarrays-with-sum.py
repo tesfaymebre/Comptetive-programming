@@ -1,5 +1,24 @@
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
+        # solution 2
+        prefix = defaultdict(int)
+        prefix[0] = 1
+        
+        count = 0
+        running_sum = 0
+        
+        for num in nums:
+            running_sum += num
+            
+            count += prefix[running_sum - goal]
+            prefix[running_sum] += 1
+            
+        return count
+            
+        
+        """
+        # solution 1 
+        
         def atMost(target):
             if target < 0: 
                 return 0
@@ -18,3 +37,4 @@ class Solution:
             return count
         
         return atMost(goal) - atMost(goal - 1)
+        """
