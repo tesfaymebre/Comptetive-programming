@@ -1,5 +1,7 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        # solution 1 using heap
+        
         min_heap = []
         
         for i in range(len(nums)):
@@ -10,3 +12,4 @@ class Solution:
                 heapreplace(min_heap, nums[i])
         
         return min_heap[0]
+        
