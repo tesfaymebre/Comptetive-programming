@@ -11,8 +11,8 @@ class Solution:
             if edges[node] != -1:
                 nodes[node] = dist
                 return traverse(edges[node], dist + 1, nodes)
-            else:
-                return -1
+            
+            return -1
         
         seen = [False] * len(edges)
         result = -1
