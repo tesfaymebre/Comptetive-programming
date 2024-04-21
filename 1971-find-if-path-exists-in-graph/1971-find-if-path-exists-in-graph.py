@@ -1,24 +1,38 @@
+class DSU:
+    def __init__(self,n):
+        self.parent = [i for i in range(n)]
+        self.rank = [1]*n
+        
+    def find(self,x):
+        if self.parent[x] == x:
+            return x
+        
+        self.parent[x] = self.find(self.parent[x])
+         
+        return self.parent[x]
+    
+    def union(self,x,y):
+        px = self.find(x)
+        py = self.find(y)
+        
+        if self.rank[px] > self.rank[py]:
+            self.parent[py] = px
+        elif self.rank[px] < self.rank[py]:
+            self.parent[px] = py
+        else:
+            self.parent[py] = px
+            self.rank[px] += 1
+            
+        return
+    
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
-        self.pairs = defaultdict(list)
+        union_find = DSU(n)
         
-        for i in range(len(edges)):
-            edges[i].sort()
-            
-        for i in range(len(edges)):
-            self.pairs[edges[i][0]].append(edges[i][1])
-            self.pairs[edges[i][1]].append(edges[i][0])
-            
-        self.ans = False
+        for u,v in edges:
+            union_find.union(u,v)
         
-        def recur(vertex):
-            if vertex == destination:
-                self.ans = True
-                return
-            
-            while self.pairs[vertex] and self.ans == False:
-                recur(self.pairs[vertex].pop())
-                
-        recur(source)
-        return self.ans
-            
+        if union_find.find(source) == union_find.find(destination):
+            return True
+        
+        return False
