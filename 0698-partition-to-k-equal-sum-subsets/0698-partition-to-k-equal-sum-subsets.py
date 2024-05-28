@@ -7,7 +7,7 @@ class Solution:
             return False
         
         subset_sum = total // k
-        nums.sort()
+        # nums.sort()
         
         def dp(visited, curr_total):
             if (visited, curr_total) not in memo:
@@ -19,7 +19,7 @@ class Solution:
                         continue
 
                     if nums[i] + curr_total > subset_sum:
-                        break    
+                        continue 
 
                     if nums[i] + curr_total == subset_sum:
                         if dp(visited | 1 << i, 0):
