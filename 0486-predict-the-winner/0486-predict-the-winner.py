@@ -1,61 +1,34 @@
 class Solution:
-    def PredictTheWinner(self, nums: List[int]) -> bool:
+    def predictTheWinner(self, nums: List[int]) -> bool:
+        # solution 2 bottom up dp approach
+        n = len(nums)
+        dp = [[0]*(n+1) for _ in range(n+1)]
         
-        #space optimized bottom up dp solution
-        
-        size = len(nums)
-        dp = [[0]*(size+1) for _ in range(2)]
-        
-        
-        dp[0][0] = nums[0]
+        for i in range(n):
+            dp[i][i] = nums[i]
             
-        for i in range(size-1,-1,-1):
-            for j in range(i,size):
-                dp[i&1][j] = max(nums[i]-dp[(i+1)&1][j],nums[j]-dp[i&1][j-1])
+        for i in range(n-1, -1, -1):
+            for j in range(i+1,n):
+                dp[i][j] = max(nums[i] - dp[i+1][j],nums[j] - dp[i][j-1])
+        
+        return True if dp[0][n-1] >= 0 else False
                 
-        return True if dp[0][size-1] >= 0 else False
-    
-        #time complexity: O(n^2)
-        #space complexity: O(2n) = O(n)
-        
         """
-        #bottom up dp solution
-        
-        size = len(nums)
-        dp = [[0]*(size+1) for _ in range(size+1)]
-        
-        dp[0][0] = nums[0]
-            
-        for i in range(size-1,-1,-1):
-            for j in range(i,size):
-                dp[i][j] = max(nums[i]-dp[i+1][j],nums[j]-dp[i][j-1])
-                
-        return True if dp[0][size-1] >= 0 else False
-        
-        #time complexity: O(n^2)
-        #space complexity: O(n^2)
-        """
-    
-        """
-        #top down dp solution
+        # solution 1 top down dp approach
+        memo = {}
         
         def dp(i,j):
             if (i,j) not in memo:
                 if i == j:
                     return nums[i]
 
-                curr_score = max(nums[i] - dp(i+1,j),nums[j] - dp(i,j-1))
-                memo[(i,j)] = curr_score
+                memo[(i,j)] = max(nums[i] - dp(i+1,j),nums[j] - dp(i,j-1))
                 
             return memo[(i,j)]
         
-        memo = {}
         player_1_score = dp(0,len(nums)-1)
         
         return True if player_1_score >= 0 else False
-        
-        #time complexity: O(n^2)
-        #space complexity: O(n^2)
         """
         
         
