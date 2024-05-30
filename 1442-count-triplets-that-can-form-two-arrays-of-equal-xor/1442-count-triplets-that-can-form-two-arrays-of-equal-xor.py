@@ -7,10 +7,8 @@ class Solution:
             
         ans = 0
         
-        for i in range(len(arr)-1):
-            for j in range(i+1,len(arr)):
-                for k in range(j,len(arr)):
-                    if prefix_xor[j] ^ prefix_xor[i] == prefix_xor[k+1] ^ prefix_xor[j]:
-                        ans += 1
-                        
+        for i in range(len(arr)):
+            for k in range(i + 1,len(arr)):
+                if prefix_xor[k + 1] == prefix_xor[i]:
+                    ans += k - i
         return ans
