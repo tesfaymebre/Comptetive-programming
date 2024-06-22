@@ -1,56 +1,39 @@
-class DSU:
-    def __init__(self,size):
-        self.parent = [i for i in range(size)]
-        self.rank = [1]*size
-        
-    def find(self,target):
-        if self.parent[target] != target:
-            self.parent[target] = self.find(self.parent[target])
-            
-        return self.parent[target]
-    
-    def union(self,x,y):
-        p_x = self.find(x)
-        p_y = self.find(y)
-        
-        if p_x == p_y:
-            return
-        
-        if self.rank[p_x] < self.rank[p_y]:
-            p_x, p_y = p_y, p_x
-            
-        self.parent[p_y] = p_x
-        self.rank[p_x] += self.rank[p_y]
-        
-        return
-    
-    def get_parent_list(self):
-        for i in range(len(self.parent)):
-            self.find(i)
-           
-        return self.parent
-    
 class Solution:
     def countPairs(self, n: int, edges: List[List[int]]) -> int:
-        union_find = DSU(n)
-        
+        parent = [i for i in range(n)]
+        rank = [1 for i in range(n)]
+
+        def find(n):
+            if n == parent[n]:
+                return n
+            n = find(parent[n])
+            return n
+
+
+        def join(n1,n2):
+            node1,node2 = find(n1),find(n2)
+            if node1 == node2:
+                return 
+            if rank[node1] > rank[node2]:
+                parent[node2] = node1
+            elif rank[node2] > rank[node1]:
+                parent[node1] = node2
+            else:
+                parent[node1] = node2
+                rank[node2]+=1
+            return 
+
         for a,b in edges:
-            union_find.union(a,b)
-            
-        groups = Counter(union_find.get_parent_list())
-        
-        cur_sum = 0
-        count = 0
-        
-        for key,val in groups.items():
-            count += cur_sum*val
-            cur_sum += val
-            
-        return count
-            
-        
-        
-            
-        
-        
-        
+            join(a,b)
+        lengths = defaultdict(int)
+        for i in range(n):
+            lengths[find(i)]+=1
+
+        component = list(lengths.values())
+        prefix = []
+        for number in component:
+            prefix.append(prefix[-1]+number if prefix else number)
+        ans = 0
+        for i in range(len(component)-1,0,-1):
+            ans+=(component[i]*prefix[i-1])
+        return ans
