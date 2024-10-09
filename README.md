@@ -30,4 +30,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
+## String
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+## Stack
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+## Greedy
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
