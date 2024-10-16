@@ -97,4 +97,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
