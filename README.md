@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 ## Stack
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 ## Sorting
@@ -91,4 +93,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
