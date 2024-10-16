@@ -2,9 +2,18 @@ class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n == 0:
             return 1
-        
-        x = 1/x if n < 0 else x
-        temp = self.myPow(x,abs(n)//2)
-        
-        return x * temp*temp if n%2 else temp * temp
+
+        exponent = abs(n)
+
+        result = 1
+
+        while exponent > 0:
+            if exponent & 1:
+                result *= x
+
+            x *= x
+            exponent >>= 1
+
+        return result if n > 0 else 1 / result
+
         
