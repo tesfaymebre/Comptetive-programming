@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
+| [0670-maximum-swap](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
