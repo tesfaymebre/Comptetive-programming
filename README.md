@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 ## String
 |  |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
 | [0670-maximum-swap](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
 ## Recursion
@@ -112,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
