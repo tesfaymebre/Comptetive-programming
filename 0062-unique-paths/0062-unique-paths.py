@@ -1,31 +1,73 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        #solution 1
+        # using permutuation
+        return factorial(m+n - 2) // (factorial(m-1)*factorial(n-1))
+
+        """
+        # further space optimized solution
+        
+        dp = [0]*(n+1)
+        dp[n-1] = 1
+        
+        for r in range(m-1,-1,-1):
+            for c in range(n-1,-1,-1):
+                if r == m-1 and c==n-1:
+                    continue
+                    
+                dp[c] += dp[c+1] 
+                
+        return dp[0]
+        """
+        
+        """
+        # space optimized solution
+        
+        dp = [[0]*(n+1) for _ in range(2)]
+        dp[(m-1)&1][n-1] = 1
+        
+        for r in range(m-1,-1,-1):
+            for c in range(n-1,-1,-1):
+                if r == m-1 and c==n-1:
+                    continue
+                    
+                dp[r&1][c] = dp[r&1][c+1] + dp[(r+1)&1][c]
+                
+        return dp[0&1][0]
+        """
+        """
+        # bottom up solution
+        
+        dp = [[0]*(n+1) for _ in range(m+1)]
+        dp[m-1][n-1] = 1
+        
+        for r in range(m-1,-1,-1):
+            for c in range(n-1,-1,-1):
+                if r == m-1 and c==n-1:
+                    continue
+                    
+                dp[r][c] = dp[r][c+1] + dp[r+1][c]
+                
+        return dp[0][0]
+        """
+                
+        
+        
+        """
+        # top down solution
         memo = {}
         
-        def dp(m,n,r,c):
-            if r == 0 or c == 0:
-                memo[(r,c)] = 1
-                return memo[(r,c)]
-            elif (r,c) in memo:
-                return memo[r,c]
-            else:
-                memo[(r,c)] = dp(m,n,r-1,c) + dp(m,n,r,c-1)
-                return memo[(r,c)]
+        def dp(r,c):
+            if (r,c) not in memo:
+                if r == m-1 and c == n-1:
+                    return 1
+                
+                if r == m or c == n:
+                    return 0
+                
+                memo[(r,c)] = dp(r,c+1) + dp(r+1,c)
+                
+            return memo[(r,c)]
         
-        return dp(m,n,m-1,n-1)
-    
-        #solution 2
-        
-#         paths = [[0]*n for i in range(m)]
-#         in_bound = lambda r,c : 0 <= r < m and 0 <= c < n
-        
-#         for i in range(m):
-#             for j in range(n):
-#                 if not in_bound(i-1,j) or not in_bound(i,j-1):
-#                     paths[i][j] = 1
-                    
-#                 else:
-#                     paths[i][j] += paths[i][j-1] + paths[i-1][j]
-                    
-#         return paths[-1][-1]
+        return dp(0,0)
+        """
+                
