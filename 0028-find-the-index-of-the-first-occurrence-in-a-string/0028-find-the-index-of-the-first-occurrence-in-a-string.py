@@ -1,43 +1,44 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        if len(haystack) < len(needle):
-            return -1
-
-        pattern = 0
-        k = len(needle) - 1
-
-        for c in needle:
-            idx = ord(c) - ord('a') + 1
-            pattern += idx * pow(26,k)
-            k -= 1
-
-        window_hash = 0
-        k = len(needle) - 1
-
-        for i in range(len(needle)):
-            idx = ord(haystack[i]) - ord('a') + 1
-            window_hash += idx * pow(26,k)
-            k -= 1
-
-        if window_hash == pattern:
-            return 0
-
-        left = 0
-        right = len(needle)
-        k = len(needle) - 1
-        while right < len(haystack):
-            idx = ord(haystack[left]) - ord('a') + 1
-            window_hash -= idx * pow(26,k)
-
-            idx = ord(haystack[right]) - ord('a') + 1
-            window_hash *= 26
-            window_hash += idx
-
-            if window_hash == pattern:
-                return left + 1
-
-            left += 1
-            right += 1
-
-        return -1
+        MOD = 10**9 + 7
+        base = 27
         
+        def convert(char):
+            return ord(char) - 96
+       
+        def add_last(Hash, char):
+            return (Hash * base + convert(char)) % MOD
+       
+        def poll_first(Hash, char, base_power):
+            return (Hash - convert(char) * base_power) % MOD
+
+        N1, N2 = len(haystack), len(needle)
+        if N1 < N2:
+            return -1
+       
+        # Precompute base powers mod MOD
+        base_powers = [1] * (N2 + 1)
+        for i in range(1, N2 + 1):
+            base_powers[i] = (base_powers[i - 1] * base) % MOD
+       
+        target = window_hash = 0
+        # Calculate the hash of the needle and the initial window in haystack
+        for char in needle:
+            target = add_last(target, char)
+           
+        for i in range(N2):
+            window_hash = add_last(window_hash, haystack[i])
+
+        if window_hash == target:
+            return 0
+           
+        # Slide the window over the haystack
+        for right in range(N2, N1):
+            left = right - N2
+            window_hash = poll_first(window_hash, haystack[left], base_powers[N2-1])
+            window_hash = add_last(window_hash, haystack[right])
+            if window_hash == target:
+                return left + 1
+           
+        return -1
+
