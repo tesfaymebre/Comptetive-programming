@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
+| [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0812-rotate-string) |
+| [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
 ## Math
 |  |
 | ------- |
@@ -169,4 +171,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0988-flip-equivalent-binary-trees) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
+## Rolling Hash
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
