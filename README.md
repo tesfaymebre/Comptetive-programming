@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0812-rotate-string) |
 ## Math
 |  |
 | ------- |
