@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1002-maximum-width-ramp](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1002-maximum-width-ramp) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
@@ -207,4 +208,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2586-longest-square-streak-in-an-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2586-longest-square-streak-in-an-array) |
+## Design
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
+## Segment Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 <!---LeetCode Topics End-->
