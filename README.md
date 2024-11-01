@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -220,8 +221,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
+| [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
+| [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
 <!---LeetCode Topics End-->
