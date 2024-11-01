@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1197-parsing-a-boolean-expression) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
