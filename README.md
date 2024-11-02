@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
+| [2580-circular-sentence](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2580-circular-sentence) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 ## Stack
 |  |
