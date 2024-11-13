@@ -1,37 +1,37 @@
 class Solution:
-    def validIPAddress(self, queryIP: str) -> str:
-        IP4 = 'IPv4'
-        IP6 = 'IPv6'
-        none_of_them = 'Neither'
-        
-        if '.' in queryIP and ':' in queryIP:
-        	return none_of_them
-        elif '.' in queryIP:
-        	Count = queryIP.split('.')
+    def validateIPv4(self, IP):
+        nums = IP.split(".")
+        for x in nums:
+            if len(x) == 0 or len(x) > 3:
+                return "Neither"
             
-        	if len(Count) != 4:
-        		return none_of_them
+            if x[0] == "0" and len(x) != 1:
+                return "Neither"
             
-        	for i in Count:
-        		if i.isdigit() == False or len(i) == 0 or int(i) > 255 or int(i) < 0 or (len(i) != 1 and i[0] == '0'):
-        			return none_of_them
-                
-        	return IP4
+            if not x.isdigit():
+                return "Neither"
+           
+            if int(x) > 255:
+                return "Neither"
+        return "IPv4"
+
+    def validateIPv6(self, IP):
+        nums = IP.split(":")
+        hexdigits = "0123456789abcdefABCDEF"
+        for x in nums:
+            if len(x) == 0 or len(x) > 4:
+                return "Neither"
+            
+            for ch in x:
+                if ch not in hexdigits:
+                    return "Neither"
+        return "IPv6"
+    
+    # don't use self in ur implementation
+    def validIPAddress(self, IP):
+        if IP.count(".") == 3:
+            return self.validateIPv4(IP)
+        elif IP.count(":") == 7:
+            return self.validateIPv6(IP)
         else:
-        	Count = queryIP.split(':')
-            
-        	if len(Count) != 8:
-        		return none_of_them
-            
-        	for i in Count:
-        		if len(i) > 4 or len(i) == 0 or i.isalnum() == False:
-        			return none_of_them
-                
-        		for j in i:
-        			if j <= '9' and j >= '0':
-        				continue
-                        
-        			if (j > 'f' and j <= 'z') or (j > 'F' and j <= 'Z'):
-        				return none_of_them
-                    
-        	return IP6
+            return "Neither"
