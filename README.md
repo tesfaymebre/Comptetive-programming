@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Tree
 |  |
 | ------- |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Binary Search
 |  |
