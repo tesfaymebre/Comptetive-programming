@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Graph
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
 | [3189-find-champion-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3189-find-champion-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3291-find-if-array-can-be-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3291-find-if-array-can-be-sorted) |
 | [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Monotonic Stack
 |  |
 | ------- |
