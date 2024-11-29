@@ -29,21 +29,9 @@ class Solution:
                         else:
                             heapq.heappush(heap,(grid[nr][nc]+1,nr,nc))
                             time[(nr,nc)] = grid[nr][nc] + 1
-                    else:
-                        if new_time >= grid[nr][nc]:
-                            if new_time < time[(nr,nc)]:
-                                heapq.heappush(heap,(new_time, nr, nc))
-                                time[(nr,nc)] = new_time
-                        elif (grid[nr][nc] - time[(r,c)]) & 1:
-                            new_time = grid[nr][nc]
-                            if new_time < time[(nr,nc)]:
-                                heapq.heappush(heap,(new_time,nr,nc))
-                                time[(nr,nc)] = new_time
-                        else:
-                            new_time = grid[nr][nc] + 1
-                            if new_time < time[(nr,nc)]:
-                                heapq.heappush(heap,(new_time,nr,nc))
-                                time[(nr,nc)] = new_time
+                    elif new_time >= grid[nr][nc] and new_time < time[(nr,nc)]:
+                        heapq.heappush(heap,(new_time, nr, nc))
+                        time[(nr,nc)] = new_tim
 
         return time[(len(grid)-1,len(grid[0])-1)]
 
