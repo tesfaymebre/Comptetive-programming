@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Graph
 |  |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3189-find-champion-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3189-find-champion-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Heap (Priority Queue)
@@ -36,12 +38,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -114,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-count-pairs-of-similar-strings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2594-count-pairs-of-similar-strings) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2716-prime-subtraction-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3291-find-if-array-can-be-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3291-find-if-array-can-be-sorted) |
@@ -241,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Binary Search
 |  |
