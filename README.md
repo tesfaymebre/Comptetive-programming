@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
 | [0494-target-sum](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0494-target-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1063-best-sightseeing-pair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1063-best-sightseeing-pair) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2164-two-best-non-overlapping-events) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0780-max-chunks-to-make-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1002-maximum-width-ramp) |
+| [1063-best-sightseeing-pair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1063-best-sightseeing-pair) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
