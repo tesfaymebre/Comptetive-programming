@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1025-minimum-cost-for-tickets](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1063-best-sightseeing-pair) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1002-maximum-width-ramp) |
+| [1025-minimum-cost-for-tickets](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1063-best-sightseeing-pair) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1350-remove-sub-folders-from-the-filesystem) |
