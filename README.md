@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1508-longest-happy-prefix](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1508-longest-happy-prefix) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
 ## Sliding Window
