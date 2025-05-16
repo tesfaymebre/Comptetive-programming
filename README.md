@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2554-minimum-total-distance-traveled](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 ## String
 |  |
 | ------- |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-count-pairs-of-similar-strings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2594-count-pairs-of-similar-strings) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3291-find-if-array-can-be-sorted) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
 | [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
