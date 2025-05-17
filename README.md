@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 | [0494-target-sum](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0494-target-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2232-adding-spaces-to-a-string) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0780-max-chunks-to-make-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
