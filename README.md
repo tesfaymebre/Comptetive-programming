@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
+| [0238-product-of-array-except-self](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0238-product-of-array-except-self) |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 | [0494-target-sum](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0494-target-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0238-product-of-array-except-self) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2358-number-of-ways-to-split-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
