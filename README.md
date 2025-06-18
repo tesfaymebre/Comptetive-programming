@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0049-group-anagrams) |
+| [0202-happy-number](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0202-happy-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
+| [0202-happy-number](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0202-happy-number) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2232-adding-spaces-to-a-string) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
+| [0202-happy-number](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0202-happy-number) |
 | [0441-arranging-coins](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0441-arranging-coins) |
 | [0670-maximum-swap](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
