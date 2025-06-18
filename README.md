@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0049-group-anagrams) |
+| [0074-search-a-2d-matrix](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
 | [0238-product-of-array-except-self](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0238-product-of-array-except-self) |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0074-search-a-2d-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0441-arranging-coins](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0441-arranging-coins) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
