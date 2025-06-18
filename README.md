@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0075-sort-colors) |
+| [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0238-product-of-array-except-self) |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 | [0494-target-sum](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0494-target-sum) |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -414,4 +418,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2868-continuous-subarrays) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
