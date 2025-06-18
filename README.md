@@ -275,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0062-unique-paths) |
+| [0441-arranging-coins](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0441-arranging-coins) |
 | [0670-maximum-swap](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0441-arranging-coins](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0441-arranging-coins) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
