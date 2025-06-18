@@ -1,11 +1,17 @@
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        curr = 0
-        
-        for i in range(n+2):
-            curr += i
-            
-            if curr > n:
-                return i-1
-            
-        
+        left = 1
+        right = n
+        best = 1
+
+        while left <= right:
+            mid = left + (right - left) // 2
+            coins = mid * (mid + 1) // 2
+
+            if coins > n:
+                right = mid - 1
+            else:
+                best = mid
+                left = mid + 1
+
+        return best
