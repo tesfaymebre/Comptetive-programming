@@ -1,21 +1,21 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        def BS(row,target):
-            l,r = 0,len(row)-1
-            
-            while l <= r:
-                mid = l + (r-l)//2
-                
-                if row[mid] > target:
-                    r = mid - 1
-                else:
-                    l = mid + 1
-            
-            return l
-        
-        for row in matrix:
-            if row[BS(row,target)-1] == target:
+        rows = len(matrix)
+        cols = len(matrix[0])
+
+        left = 0
+        right = rows * cols - 1
+
+        while left <= right:
+            mid = left + (right - left) // 2
+            row = mid // cols
+            col = mid % cols
+
+            if matrix[row][col] < target:
+                left = mid + 1
+            elif matrix[row][col] > target:
+                right = mid - 1
+            else:
                 return True
-            
-        return False
-            
+
+        return False 
