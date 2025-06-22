@@ -1,95 +1,41 @@
-class DSU:
+class UnionFind:
     def __init__(self,size):
         self.parent = [i for i in range(size)]
-        self.rank = [1]*size
-        
-    def find(self,city):
-        if self.parent[city] != city:
-            self.parent[city] = self.find(self.parent[city])
-            
-        return self.parent[city]
-    
-    def union(self,city_a, city_b):
-        parent_a = self.find(city_a)
-        parent_b = self.find(city_b)
-        
-        if parent_a == parent_b:
+        self.rank = [1] * size
+
+    def find(self, x):
+        while x != self.parent[x]:
+            self.parent[x] = self.parent[self.parent[x]]
+            x = self.parent[x]
+
+        return self.parent[x]
+
+    def union(self, x, y):
+        parent_x = self.find(x)
+        parent_y = self.find(y)
+
+        if parent_x == parent_y:
             return 0
-        
-        if self.rank[parent_a] < self.rank[parent_b]:
-            parent_a,parent_b = parent_b,parent_a
-            
-        self.parent[parent_b] = parent_a
-        self.rank[parent_a] += self.rank[parent_b]
+
+        if self.rank[parent_x] < self.rank[parent_y]:
+            self.parent[parent_x] = parent_y
+        elif self.rank[parent_x] > self.rank[parent_y]:
+            self.parent[parent_y] = parent_x
+        else:
+            self.parent[parent_y] = parent_x
+            self.rank[parent_x] += 1
+
         return 1
-    
+
 class Solution:
-        
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         size = len(isConnected)
-        
-        union_find = DSU(size)
-        province = size
-        
-        for i in range(size):
-            for j in range(size):
-                if i!=j and isConnected[i][j]:
-                    province -= union_find.union(i,j)
-                    
-        return province
-        
-        """
-        # bfs solution
-        
-        def bfs(queue):
-            
-            while queue:
-                temp = queue.popleft()
-                
-                if temp not in seen:
-                    seen.add(temp)
-                    
-                    for col in range(len(isConnected)):
-                        if col not in seen and isConnected[temp][col] == 1:
-                            queue.append(col)
-            return
-            
-        queue = deque()
-        seen = set()
-        province = 0
-        
+        dsu = UnionFind(size)
+        province = len(isConnected)
+
         for row in range(len(isConnected)):
-            if row not in seen:
-                queue.append(row)
-                bfs(queue)
-                province += 1
-                
+            for col in range(len(isConnected[0])):
+                if row != col and isConnected[row][col]:
+                    province -= dsu.union(row,col)
+
         return province
-        """
-        
-        
-        
-        """
-        # dfs solution
-        
-        def dfs(row):
-            visited.add(row)
-            
-            for col in range(len(isConnected[row])):
-                if col not in visited and isConnected[row][col] == 1:
-                    dfs(col)
-                    
-            return
-        
-        visited = set()
-        self.province = 0
-        
-        for row in range(len(isConnected)):
-            if row not in visited:
-                self.province += 1
-                dfs(row)
-           
-        return self.province
-        
-        """
-            
