@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0988-flip-equivalent-binary-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0988-flip-equivalent-binary-trees) |
+| [1005-univalued-binary-tree](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1005-univalued-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1005-univalued-binary-tree](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1005-univalued-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0988-flip-equivalent-binary-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0988-flip-equivalent-binary-trees) |
+| [1005-univalued-binary-tree](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1005-univalued-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -345,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0988-flip-equivalent-binary-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0988-flip-equivalent-binary-trees) |
+| [1005-univalued-binary-tree](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1005-univalued-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
