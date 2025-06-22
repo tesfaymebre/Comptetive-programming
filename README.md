@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0988-flip-equivalent-binary-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0988-flip-equivalent-binary-trees) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -31,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1325-path-with-maximum-probability) |
@@ -425,4 +428,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
