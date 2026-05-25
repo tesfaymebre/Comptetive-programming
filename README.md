@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
 | [2164-two-best-non-overlapping-events](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2164-two-best-non-overlapping-events) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
 | [2554-minimum-total-distance-traveled](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2554-minimum-total-distance-traveled) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
 | [2232-adding-spaces-to-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2300-construct-string-with-repeat-limit) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0238-product-of-array-except-self) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
 | [2358-number-of-ways-to-split-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2358-number-of-ways-to-split-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
@@ -275,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2868-continuous-subarrays](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2868-continuous-subarrays) |
