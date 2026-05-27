@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2784-check-if-array-is-good](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2784-check-if-array-is-good) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Two Pointers
 |  |
