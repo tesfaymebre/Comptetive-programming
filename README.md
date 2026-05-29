@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3291-find-if-array-can-be-sorted) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
 | [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2050-count-good-numbers) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
 | [2716-prime-subtraction-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2716-prime-subtraction-operation) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
 |  |
