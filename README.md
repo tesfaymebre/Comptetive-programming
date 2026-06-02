@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Array
 |  |
 | ------- |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Sorting
 |  |
 | ------- |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2784-check-if-array-is-good](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2784-check-if-array-is-good) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3291-find-if-array-can-be-sorted](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3291-find-if-array-can-be-sorted) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -415,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Design
 |  |
 | ------- |
