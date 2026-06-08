@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2554-minimum-total-distance-traveled](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2554-minimum-total-distance-traveled) |
+| [2574-left-and-right-sum-differences](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2574-left-and-right-sum-differences) |
 | [2586-longest-square-streak-in-an-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2586-longest-square-streak-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2594-count-pairs-of-similar-strings) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
 | [2358-number-of-ways-to-split-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2358-number-of-ways-to-split-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2574-left-and-right-sum-differences](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2574-left-and-right-sum-differences) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
 ## Sliding Window
 |  |
