@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+| [3689-maximum-total-subarray-value-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3689-maximum-total-subarray-value-i) |
 ## Array
 |  |
 | ------- |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+| [3689-maximum-total-subarray-value-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3689-maximum-total-subarray-value-i) |
 ## Monotonic Stack
 |  |
 | ------- |
