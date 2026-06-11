@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2716-prime-subtraction-operation) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Recursion
 |  |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2677-cousins-in-binary-tree-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Binary Tree
 |  |
 | ------- |
