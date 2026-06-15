@@ -256,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0202-happy-number) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -478,4 +479,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0547-number-of-provinces) |
+## Linked List
+|  |
+| ------- |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 <!---LeetCode Topics End-->
