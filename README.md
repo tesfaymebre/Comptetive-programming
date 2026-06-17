@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3195-separate-black-and-white-balls](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3195-separate-black-and-white-balls) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3614-process-string-with-special-operations-ii) |
 | [3838-weighted-word-mapping](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3838-weighted-word-mapping) |
 ## Stack
 |  |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3614-process-string-with-special-operations-ii) |
 | [3838-weighted-word-mapping](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3838-weighted-word-mapping) |
 ## Tree
 |  |
