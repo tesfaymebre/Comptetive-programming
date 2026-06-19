@@ -490,4 +490,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
