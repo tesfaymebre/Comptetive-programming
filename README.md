@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0686-repeated-string-match](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1189-maximum-number-of-balloons](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1189-maximum-number-of-balloons) |
 | [1197-parsing-a-boolean-expression](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1197-parsing-a-boolean-expression) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1304-longest-happy-string) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0202-happy-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1189-maximum-number-of-balloons](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1189-maximum-number-of-balloons) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -461,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1189-maximum-number-of-balloons](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1189-maximum-number-of-balloons) |
 | [2300-construct-string-with-repeat-limit](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2594-count-pairs-of-similar-strings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2594-count-pairs-of-similar-strings) |
