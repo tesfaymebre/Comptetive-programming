@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3689-maximum-total-subarray-value-i) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3838-weighted-word-mapping](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3838-weighted-word-mapping) |
 ## Monotonic Stack
 |  |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3120-count-the-number-of-special-characters-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2574-left-and-right-sum-differences](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2574-left-and-right-sum-differences) |
 | [3427-special-array-ii](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3427-special-array-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -460,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/0307-range-sum-query-mutable) |
 | [3438-peaks-in-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3438-peaks-in-array) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Counting
 |  |
 | ------- |
@@ -468,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2594-count-pairs-of-similar-strings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2594-count-pairs-of-similar-strings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Number Theory
 |  |
 | ------- |
@@ -498,4 +503,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0175-combine-two-tables](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0175-combine-two-tables) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/tesfaymebre/Comptetive-programming/tree/master/0181-employees-earning-more-than-their-managers) |
+## Divide and Conquer
+|  |
+| ------- |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
+## Merge Sort
+|  |
+| ------- |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/tesfaymebre/Comptetive-programming/tree/master/3737-count-subarrays-with-majority-element-i) |
 <!---LeetCode Topics End-->
