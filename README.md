@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1871-jump-game-vii](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1871-jump-game-vii) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2187-vowels-of-all-substrings](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2187-vowels-of-all-substrings) |
 | [2232-adding-spaces-to-a-string](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2300-construct-string-with-repeat-limit) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/1917-maximum-average-pass-ratio) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/tesfaymebre/Comptetive-programming/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/tesfaymebre/A2SV_comptetive_programming-python-/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/tesfaymebre/Comptetive-programming/tree/master/2161-partition-array-according-to-given-pivot) |
